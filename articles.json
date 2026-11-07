@@ -310,6 +310,10 @@
       [
         "My data labels are confusing",
         "Use a clear parent question code and recognizable subquestion codes; check exported variable naming before fieldwork."
+      ],
+      [
+        "Labels and stored values",
+        "The predefined five-point array uses numeric choices. If you require written choices displayed as Strongly Disagree through Strongly Agree, use a customizable Array question with five labeled answer options instead."
       ]
     ],
     "source": "https://www.limesurvey.org/manual/Question_type_-_Array",
@@ -321,5 +325,2111 @@
     "version": "3.28.73+230906",
     "review": "2026-11-07",
     "verified": "Documentation-checked; local interface screenshots pending"
+  },
+  {
+    "id": "how-do-i-change-the-title-welcome-message-or-language",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I change the title, welcome message or language?",
+    "summary": "Update the words participants see at the beginning of a survey.",
+    "keywords": "how do i change the title, welcome message or language? getting started update the words participants see at the beginning of a survey.",
+    "goal": "Update the words participants see at the beginning of a survey.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the survey and select Settings, then Text elements."
+      ],
+      [
+        "Step 2",
+        "Edit the survey title, description, welcome message or end message and save."
+      ],
+      [
+        "Step 3",
+        "For additional languages, inspect the survey language settings before adding translations."
+      ],
+      [
+        "Step 4",
+        "Preview the survey in the intended language."
+      ]
+    ],
+    "check": [
+      "The new title and messages appear in preview."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "A survey's original base language is not freely interchangeable after creation; additional languages need their own text."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "create-survey",
+      "add-group",
+      "add-question"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-copy-an-existing-survey",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I copy an existing survey?",
+    "summary": "Reuse an existing questionnaire without rebuilding every question.",
+    "keywords": "how do i copy an existing survey? getting started reuse an existing questionnaire without rebuilding every question.",
+    "goal": "Reuse an existing questionnaire without rebuilding every question.",
+    "steps": [
+      [
+        "Step 1",
+        "From the survey overview or survey list, find the Copy survey action."
+      ],
+      [
+        "Step 2",
+        "Choose the source survey and enter a new title."
+      ],
+      [
+        "Step 3",
+        "Create the copy, then open its Structure tab."
+      ],
+      [
+        "Step 4",
+        "Check groups, logic, quotas, text and access settings before collecting data."
+      ]
+    ],
+    "check": [
+      "The new copy is separate from the original and contains the expected questions."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Copying a survey design does not necessarily copy responses or participant access records."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "create-survey",
+      "add-group",
+      "add-question"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-import-a-survey-using-an-lss-file",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I import a survey using an .lss file?",
+    "summary": "Open a prepared LimeSurvey questionnaire provided as an .lss file.",
+    "keywords": "how do i import a survey using an .lss file? getting started open a prepared limesurvey questionnaire provided as an .lss file.",
+    "goal": "Open a prepared LimeSurvey questionnaire provided as an .lss file.",
+    "steps": [
+      [
+        "Step 1",
+        "On the surveys homepage, choose the Import survey option."
+      ],
+      [
+        "Step 2",
+        "Select the .lss file saved on your computer."
+      ],
+      [
+        "Step 3",
+        "Complete the import and open the resulting survey."
+      ],
+      [
+        "Step 4",
+        "Inspect its question groups, conditions, language and theme; preview every page."
+      ]
+    ],
+    "check": [
+      "The imported survey is visible in your survey list and can be previewed."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not assume imported plugins, images or custom themes will work unchanged on another installation."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "create-survey",
+      "add-group",
+      "add-question"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-show-a-question-only-when-someone-selects-yes",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I show a question only when someone selects Yes?",
+    "summary": "Make a follow-up question appear only after the participant chooses Yes.",
+    "keywords": "how do i show a question only when someone selects yes? questions, conditions & logic make a follow-up question appear only after the participant chooses yes.",
+    "goal": "Make a follow-up question appear only after the participant chooses Yes.",
+    "steps": [
+      [
+        "Step 1",
+        "Create a single-choice question with Yes (code Y) and No (code N)."
+      ],
+      [
+        "Step 2",
+        "Place the follow-up question after the Yes/No question."
+      ],
+      [
+        "Step 3",
+        "Open the follow-up question's condition designer and choose the earlier question, Equals, and the Yes answer code."
+      ],
+      [
+        "Step 4",
+        "Save, then preview once with Yes and once with No."
+      ]
+    ],
+    "check": [
+      "The follow-up appears for Yes and stays hidden for No."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Conditions compare answer codes, not the displayed words; inspect the actual codes rather than assuming Y and N."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-make-a-question-compulsory-or-optional",
+      "how-do-i-show-a-follow-up-question-based-on-an-earlier-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I skip questions that do not apply to a participant?",
+    "summary": "Avoid asking irrelevant questions, such as shopping questions to people who never shop online.",
+    "keywords": "how do i skip questions that do not apply to a participant? questions, conditions & logic avoid asking irrelevant questions, such as shopping questions to people who never shop online.",
+    "goal": "Avoid asking irrelevant questions, such as shopping questions to people who never shop online.",
+    "steps": [
+      [
+        "Step 1",
+        "Add a screening question before the questions that may be skipped."
+      ],
+      [
+        "Step 2",
+        "Open each dependent question and set a condition based on the earlier answer."
+      ],
+      [
+        "Step 3",
+        "For several related questions, consider a condition on their question group instead."
+      ],
+      [
+        "Step 4",
+        "Preview the Yes and No paths independently."
+      ]
+    ],
+    "check": [
+      "Only relevant questions appear on each test path."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "A condition does not automatically jump to a later page if other questions on the page remain visible."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-make-a-question-compulsory-or-optional",
+      "how-do-i-show-a-follow-up-question-based-on-an-earlier-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-make-a-question-compulsory-or-optional",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I make a question compulsory or optional?",
+    "summary": "Decide whether participants can continue without answering a question.",
+    "keywords": "how do i make a question compulsory or optional? questions, conditions & logic decide whether participants can continue without answering a question.",
+    "goal": "Decide whether participants can continue without answering a question.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the question from Structure and choose Edit."
+      ],
+      [
+        "Step 2",
+        "Find the Mandatory setting in the question's general settings."
+      ],
+      [
+        "Step 3",
+        "Set it to On to require an answer, or Off to allow skipping; save."
+      ],
+      [
+        "Step 4",
+        "Preview and try continuing without an answer."
+      ]
+    ],
+    "check": [
+      "The survey either prevents progress or permits it, according to the setting."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Mandatory may behave differently for array subquestions and hidden questions; test the exact configuration."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-show-a-follow-up-question-based-on-an-earlier-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-show-a-follow-up-question-based-on-an-earlier-answer",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I show a follow-up question based on an earlier answer?",
+    "summary": "Show extra detail only for participants who choose a particular option.",
+    "keywords": "how do i show a follow-up question based on an earlier answer? questions, conditions & logic show extra detail only for participants who choose a particular option.",
+    "goal": "Show extra detail only for participants who choose a particular option.",
+    "steps": [
+      [
+        "Step 1",
+        "Put the first question earlier in the survey and give its answers clear codes."
+      ],
+      [
+        "Step 2",
+        "Create the follow-up question after it."
+      ],
+      [
+        "Step 3",
+        "Use Set conditions to compare the earlier answer code with the triggering value."
+      ],
+      [
+        "Step 4",
+        "Preview every answer option, not just the one that triggers the follow-up."
+      ]
+    ],
+    "check": [
+      "The follow-up appears only on the intended answer path."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Reordering questions after setting conditions may break the logic."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-make-a-question-compulsory-or-optional"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-hide-or-display-an-entire-question-group",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I hide or display an entire question group?",
+    "summary": "Show a section only when a screening answer makes it relevant.",
+    "keywords": "how do i hide or display an entire question group? questions, conditions & logic show a section only when a screening answer makes it relevant.",
+    "goal": "Show a section only when a screening answer makes it relevant.",
+    "steps": [
+      [
+        "Step 1",
+        "Create the screening question before the target group."
+      ],
+      [
+        "Step 2",
+        "Open the target group's settings in Structure."
+      ],
+      [
+        "Step 3",
+        "Enter a tested group relevance expression based on the earlier question's actual code and answer codes."
+      ],
+      [
+        "Step 4",
+        "Save; run Check survey logic and preview both the show and hide paths."
+      ]
+    ],
+    "check": [
+      "All questions in the group appear or disappear together as planned."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Group relevance differs from group randomization; neither automatically chooses one group at random."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-make-a-question-compulsory-or-optional"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-allow-a-question-only-when-two-conditions-are-met",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "How do I allow a question only when two conditions are met?",
+    "summary": "Show a question only if two previous answers are both suitable.",
+    "keywords": "how do i allow a question only when two conditions are met? questions, conditions & logic show a question only if two previous answers are both suitable.",
+    "goal": "Show a question only if two previous answers are both suitable.",
+    "steps": [
+      [
+        "Step 1",
+        "Create both earlier questions and note their question and answer codes."
+      ],
+      [
+        "Step 2",
+        "In the target question's condition designer, add both conditions in the same scenario so both must be true."
+      ],
+      [
+        "Step 3",
+        "Alternatively, use a relevance expression joined with AND if you are comfortable checking the syntax."
+      ],
+      [
+        "Step 4",
+        "Preview all four combinations of true and false answers."
+      ]
+    ],
+    "check": [
+      "The target question appears only when both conditions are satisfied."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Separate scenarios are commonly combined with OR, not AND; do not confuse these rules."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-make-a-question-compulsory-or-optional"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-is-my-condition-or-relevance-equation-not-working",
+    "category": "Questions, Conditions & Logic",
+    "level": "Intermediate",
+    "title": "Why is my condition or relevance equation not working?",
+    "summary": "Find out why a question appears unexpectedly or never appears.",
+    "keywords": "why is my condition or relevance equation not working? questions, conditions & logic find out why a question appears unexpectedly or never appears.",
+    "goal": "Find out why a question appears unexpectedly or never appears.",
+    "steps": [
+      [
+        "Step 1",
+        "Confirm the triggering question comes before the conditional question."
+      ],
+      [
+        "Step 2",
+        "Check the actual question code and answer code; compare them with the stored condition."
+      ],
+      [
+        "Step 3",
+        "Run Check survey logic to look for expression errors and review group-level conditions."
+      ],
+      [
+        "Step 4",
+        "Test each answer path in a fresh preview, preferably from the complete survey."
+      ]
+    ],
+    "check": [
+      "The question appears only on the intended test paths."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Text shown to participants may differ from internal answer codes; copying labels into an expression can produce incorrect behavior."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Setting_conditions",
+    "sourceLabel": "LimeSurvey conditions manual",
+    "related": [
+      "how-do-i-show-a-question-only-when-someone-selects-yes",
+      "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
+      "how-do-i-make-a-question-compulsory-or-optional"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-randomly-show-only-one-pair-of-questions",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I randomly show only one pair of questions?",
+    "summary": "Each participant must see exactly one of several two-question pairs, with both questions staying together.",
+    "keywords": "how do i randomly show only one pair of questions? randomization & experiments each participant must see exactly one of several two-question pairs, with both questions staying together.",
+    "goal": "Each participant must see exactly one of several two-question pairs, with both questions staying together.",
+    "steps": [
+      [
+        "Step 1",
+        "Put each pair in its own question group; name them Pair A, Pair B and so on."
+      ],
+      [
+        "Step 2",
+        "Plan one participant-level random assignment value that is generated once and retained; do not use the question-group Randomization group field for this purpose."
+      ],
+      [
+        "Step 3",
+        "Add a group relevance rule so Pair A displays only for assignment A, Pair B only for B, and so forth."
+      ],
+      [
+        "Step 4",
+        "Check the assignment is stored and stable when participants move backward and forward."
+      ],
+      [
+        "Step 5",
+        "Run many fresh test responses and export the assignment and pair responses."
+      ]
+    ],
+    "check": [
+      "Every response sees precisely two questions from one pair; the stored assignment matches the displayed pair."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Advanced setup: the exact random-assignment expression must be verified in LimeSurvey 3.28 before live research. Randomizing order is not random selection."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-randomly-change-the-order-of-questions",
+      "how-do-i-keep-related-questions-together-during-randomization"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-randomly-divide-participants-into-experimental-groups",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I randomly divide participants into experimental groups?",
+    "summary": "Allocate participants to treatment A, treatment B or a control condition.",
+    "keywords": "how do i randomly divide participants into experimental groups? randomization & experiments allocate participants to treatment a, treatment b or a control condition.",
+    "goal": "Allocate participants to treatment A, treatment B or a control condition.",
+    "steps": [
+      [
+        "Step 1",
+        "Create one question group for each experimental condition."
+      ],
+      [
+        "Step 2",
+        "Decide whether assignment must be balanced or purely random; these are different requirements."
+      ],
+      [
+        "Step 3",
+        "Create a stable participant-level assignment variable, then use group relevance based on its value."
+      ],
+      [
+        "Step 4",
+        "Test that the assignment remains unchanged throughout one response."
+      ],
+      [
+        "Step 5",
+        "Check the final distribution and saved assignment values using test data."
+      ]
+    ],
+    "check": [
+      "One participant sees one condition, and assignment can be identified in the exported dataset."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not assume simple randomization guarantees equal group sizes; true balance needs additional design."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-change-the-order-of-questions",
+      "how-do-i-keep-related-questions-together-during-randomization"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-randomly-change-the-order-of-questions",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I randomly change the order of questions?",
+    "summary": "Present a set of questions in different orders to different respondents.",
+    "keywords": "how do i randomly change the order of questions? randomization & experiments present a set of questions in different orders to different respondents.",
+    "goal": "Present a set of questions in different orders to different respondents.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the questions that should be shuffled and find the Randomization group name setting."
+      ],
+      [
+        "Step 2",
+        "Enter the same group name for the eligible questions; keep excluded questions outside this group."
+      ],
+      [
+        "Step 3",
+        "Save the questions and preview several fresh responses."
+      ],
+      [
+        "Step 4",
+        "Compare the orders while checking each question still displays once."
+      ]
+    ],
+    "check": [
+      "The same set of questions appears but their ordering changes between test responses."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Randomized order does not mean selecting only some questions; keep dependent and introductory questions outside the shuffle unless appropriate."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-keep-related-questions-together-during-randomization"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-keep-related-questions-together-during-randomization",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I keep related questions together during randomization?",
+    "summary": "Shuffle a collection of scenarios while keeping each scenario's related questions together.",
+    "keywords": "how do i keep related questions together during randomization? randomization & experiments shuffle a collection of scenarios while keeping each scenario's related questions together.",
+    "goal": "Shuffle a collection of scenarios while keeping each scenario's related questions together.",
+    "steps": [
+      [
+        "Step 1",
+        "Place all questions for a scenario inside one question group."
+      ],
+      [
+        "Step 2",
+        "Give the question groups to be shuffled the same group Randomization group name."
+      ],
+      [
+        "Step 3",
+        "Avoid independently shuffling the questions inside those groups."
+      ],
+      [
+        "Step 4",
+        "Preview several fresh responses and confirm each scenario stays intact."
+      ]
+    ],
+    "check": [
+      "The order of scenario groups changes, but questions within each scenario remain together."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "If you want to display only one scenario, group randomization is not enough; use stable assignment plus group relevance."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-randomly-change-the-order-of-questions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-show-different-scenarios-to-different-participants",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I show different scenarios to different participants?",
+    "summary": "Use different vignettes or messages for different survey respondents.",
+    "keywords": "how do i show different scenarios to different participants? randomization & experiments use different vignettes or messages for different survey respondents.",
+    "goal": "Use different vignettes or messages for different survey respondents.",
+    "steps": [
+      [
+        "Step 1",
+        "Prepare separate groups for each scenario, with the message and follow-up items together."
+      ],
+      [
+        "Step 2",
+        "Choose the assignment mechanism before writing relevance conditions."
+      ],
+      [
+        "Step 3",
+        "Link each scenario group's relevance to one stable assignment value."
+      ],
+      [
+        "Step 4",
+        "Test each scenario intentionally as well as through fresh random assignments."
+      ],
+      [
+        "Step 5",
+        "Verify the exported data identifies which scenario was shown."
+      ]
+    ],
+    "check": [
+      "Each participant receives the intended message and corresponding questions."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Scenario assignment may need experimental balancing, stratification or quotas; those cannot be assumed from basic randomness."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-randomly-change-the-order-of-questions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-create-a-control-group-and-treatment-groups",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I create a control group and treatment groups?",
+    "summary": "Compare an untreated control condition with one or more experimental treatments.",
+    "keywords": "how do i create a control group and treatment groups? randomization & experiments compare an untreated control condition with one or more experimental treatments.",
+    "goal": "Compare an untreated control condition with one or more experimental treatments.",
+    "steps": [
+      [
+        "Step 1",
+        "Prepare equivalent question blocks for control and treatment groups."
+      ],
+      [
+        "Step 2",
+        "Create a group assignment variable and use it to display exactly one relevant block."
+      ],
+      [
+        "Step 3",
+        "Make outcome measures comparable across the conditions."
+      ],
+      [
+        "Step 4",
+        "Test control and treatment paths for wording, order and missing values."
+      ],
+      [
+        "Step 5",
+        "Export practice responses and check group labels are recorded."
+      ]
+    ],
+    "check": [
+      "All conditions reach the common outcome questions, with group membership recorded accurately."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "A technically working survey does not by itself establish a sound experimental design; check ethics, assignment and sample size."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-randomly-change-the-order-of-questions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-check-whether-randomization-is-working-correctly",
+    "category": "Randomization & Experiments",
+    "level": "Advanced",
+    "title": "How do I check whether randomization is working correctly?",
+    "summary": "Test whether randomization does what the research design requires.",
+    "keywords": "how do i check whether randomization is working correctly? randomization & experiments test whether randomization does what the research design requires.",
+    "goal": "Test whether randomization does what the research design requires.",
+    "steps": [
+      [
+        "Step 1",
+        "List the required conditions: eligible groups, selection count, within-group consistency and saved assignment."
+      ],
+      [
+        "Step 2",
+        "Start many independent test responses rather than repeatedly refreshing one response."
+      ],
+      [
+        "Step 3",
+        "Record which question blocks appeared and whether the same assignment persisted throughout each response."
+      ],
+      [
+        "Step 4",
+        "Export the test dataset and compare assignments with completed questions."
+      ],
+      [
+        "Step 5",
+        "If balancing is required, test the balancing mechanism separately."
+      ]
+    ],
+    "check": [
+      "No response receives an impossible combination, and exported assignment agrees with exposure."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "A small test cannot prove fairness or exact balance; it can reveal implementation errors."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation",
+    "sourceLabel": "ExpressionScript reference",
+    "related": [
+      "how-do-i-randomly-show-only-one-pair-of-questions",
+      "how-do-i-randomly-divide-participants-into-experimental-groups",
+      "how-do-i-randomly-change-the-order-of-questions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-create-a-7-point-likert-scale",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I create a 7-point Likert scale?",
+    "summary": "Ask participants to rate several statements using seven clearly labeled options.",
+    "keywords": "how do i create a 7-point likert scale? questionnaire design ask participants to rate several statements using seven clearly labeled options.",
+    "goal": "Ask participants to rate several statements using seven clearly labeled options.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the correct group and add an Array question, rather than the predefined five-point array."
+      ],
+      [
+        "Step 2",
+        "Enter a clear parent question code such as GPI and add GPI1, GPI2 and GPI3 as subquestions."
+      ],
+      [
+        "Step 3",
+        "Add seven answer codes and verbal labels from Strongly Disagree through Strongly Agree."
+      ],
+      [
+        "Step 4",
+        "Save and preview on desktop and mobile; confirm every statement has all seven choices."
+      ]
+    ],
+    "check": [
+      "Three statements appear with a seven-point scale, each allowing one response."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not use Array (5 point choice) for a seven-point instrument; keep item codes distinct from the parent question code."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-allow-only-one-answer-from-several-choices",
+      "how-do-i-allow-participants-to-select-several-answers"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-allow-only-one-answer-from-several-choices",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I allow only one answer from several choices?",
+    "summary": "Ask a participant to choose one option, such as one age category.",
+    "keywords": "how do i allow only one answer from several choices? questionnaire design ask a participant to choose one option, such as one age category.",
+    "goal": "Ask a participant to choose one option, such as one age category.",
+    "steps": [
+      [
+        "Step 1",
+        "Add a question and choose List (radio) as the question type."
+      ],
+      [
+        "Step 2",
+        "Enter the question text, a unique code such as AGE, and the available answer options."
+      ],
+      [
+        "Step 3",
+        "Save and preview; try choosing two answers in succession."
+      ]
+    ],
+    "check": [
+      "Only one option stays selected at a time."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not select Multiple choice when the intended answer is singular."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-create-a-7-point-likert-scale",
+      "how-do-i-allow-participants-to-select-several-answers"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-allow-participants-to-select-several-answers",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I allow participants to select several answers?",
+    "summary": "Let respondents select all sustainable activities they have practiced.",
+    "keywords": "how do i allow participants to select several answers? questionnaire design let respondents select all sustainable activities they have practiced.",
+    "goal": "Let respondents select all sustainable activities they have practiced.",
+    "steps": [
+      [
+        "Step 1",
+        "Add a question of type Multiple choice."
+      ],
+      [
+        "Step 2",
+        "Create one subquestion for each permitted selection."
+      ],
+      [
+        "Step 3",
+        "Save and preview; choose two or more options."
+      ],
+      [
+        "Step 4",
+        "If None of the above is included, configure it to be exclusive where supported and test it."
+      ]
+    ],
+    "check": [
+      "Several legitimate options can be selected, while None of the above excludes the others."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Multiple choice and List (radio) are different question types; they cannot be interchanged without changing response behavior."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-create-a-7-point-likert-scale",
+      "how-do-i-allow-only-one-answer-from-several-choices"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-add-an-open-ended-text-question",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I add an open-ended text question?",
+    "summary": "Allow participants to write an answer in their own words.",
+    "keywords": "how do i add an open-ended text question? questionnaire design allow participants to write an answer in their own words.",
+    "goal": "Allow participants to write an answer in their own words.",
+    "steps": [
+      [
+        "Step 1",
+        "Add a question using Long free text for a detailed written response."
+      ],
+      [
+        "Step 2",
+        "Enter a clear prompt, such as What should companies do to become more environmentally responsible?"
+      ],
+      [
+        "Step 3",
+        "Choose whether an answer is mandatory and save."
+      ],
+      [
+        "Step 4",
+        "Preview by entering a paragraph and then returning to the question."
+      ]
+    ],
+    "check": [
+      "A text box accepts and retains a multi-sentence response."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "For a short word or number, choose a more suitable type rather than requiring a long paragraph."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-create-a-7-point-likert-scale",
+      "how-do-i-allow-only-one-answer-from-several-choices"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-put-several-statements-in-one-question-matrix",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I put several statements in one question matrix?",
+    "summary": "Display multiple statements with the same set of response options.",
+    "keywords": "how do i put several statements in one question matrix? questionnaire design display multiple statements with the same set of response options.",
+    "goal": "Display multiple statements with the same set of response options.",
+    "steps": [
+      [
+        "Step 1",
+        "Create an Array question and enter the overall instruction as the question text."
+      ],
+      [
+        "Step 2",
+        "Add each statement as a subquestion with a unique code."
+      ],
+      [
+        "Step 3",
+        "Add the common answer labels along the columns."
+      ],
+      [
+        "Step 4",
+        "Save and preview the array on both large and small screens."
+      ]
+    ],
+    "check": [
+      "Each row has its own selectable response and labels remain readable."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Array rows are stored separately; inspect codes before exporting to SPSS."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-create-a-7-point-likert-scale",
+      "how-do-i-allow-only-one-answer-from-several-choices"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-add-an-other-option-or-a-none-of-the-above-option",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I add an Other option or a None of the above option?",
+    "summary": "Allow an additional answer or an exclusive none response.",
+    "keywords": "how do i add an other option or a none of the above option? questionnaire design allow an additional answer or an exclusive none response.",
+    "goal": "Allow an additional answer or an exclusive none response.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the single-choice or multiple-choice question you want to modify."
+      ],
+      [
+        "Step 2",
+        "For Other, enable the built-in Other option if available and test the free-text field."
+      ],
+      [
+        "Step 3",
+        "For None of the above, add the option and apply the exclusive-option setting supported by that question type."
+      ],
+      [
+        "Step 4",
+        "Preview combinations including Other and None of the above."
+      ]
+    ],
+    "check": [
+      "Other accepts an additional explanation, and None of the above cannot be combined with incompatible options."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not assume adding the words None of the above automatically makes that choice exclusive."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_types",
+    "sourceLabel": "LimeSurvey question types",
+    "related": [
+      "five-point",
+      "how-do-i-create-a-7-point-likert-scale",
+      "how-do-i-allow-only-one-answer-from-several-choices"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-activate-my-survey-and-share-its-link",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I activate my survey and share its link?",
+    "summary": "Make a fully tested questionnaire available to participants.",
+    "keywords": "how do i activate my survey and share its link? participants & data collection make a fully tested questionnaire available to participants.",
+    "goal": "Make a fully tested questionnaire available to participants.",
+    "steps": [
+      [
+        "Step 1",
+        "Preview all groups and review privacy, consent, language and data settings before activation."
+      ],
+      [
+        "Step 2",
+        "From the survey overview, select Activate this survey."
+      ],
+      [
+        "Step 3",
+        "Review the activation options, including anonymized responses and IP collection, then confirm."
+      ],
+      [
+        "Step 4",
+        "Choose open access or survey participants as appropriate and copy the Survey URL from the overview."
+      ],
+      [
+        "Step 5",
+        "Open the link in a private browsing window and submit a test response."
+      ]
+    ],
+    "check": [
+      "The live link opens the intended questionnaire and creates a response record."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Activation can restrict structural changes. Decide anonymity and storage settings before real participants respond."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-invite-specific-participants-to-complete-a-survey",
+      "how-do-i-make-a-survey-anonymous",
+      "how-do-i-prevent-duplicate-submissions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-invite-specific-participants-to-complete-a-survey",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I invite specific participants to complete a survey?",
+    "summary": "Restrict access to people who receive their own invitations.",
+    "keywords": "how do i invite specific participants to complete a survey? participants & data collection restrict access to people who receive their own invitations.",
+    "goal": "Restrict access to people who receive their own invitations.",
+    "steps": [
+      [
+        "Step 1",
+        "Activate the survey and use the Survey participants feature."
+      ],
+      [
+        "Step 2",
+        "Add participants manually or import a properly formatted participant list."
+      ],
+      [
+        "Step 3",
+        "Generate unique access tokens and review invitation email settings."
+      ],
+      [
+        "Step 4",
+        "Send a test invitation to yourself before sending the full set."
+      ]
+    ],
+    "check": [
+      "Only authorized invitation links grant access when closed access is enabled."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not upload identifiable participant lists without permission and appropriate university data handling arrangements."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-activate-my-survey-and-share-its-link",
+      "how-do-i-make-a-survey-anonymous",
+      "how-do-i-prevent-duplicate-submissions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-make-a-survey-anonymous",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I make a survey anonymous?",
+    "summary": "Collect answers without directly linking them to the participant list.",
+    "keywords": "how do i make a survey anonymous? participants & data collection collect answers without directly linking them to the participant list.",
+    "goal": "Collect answers without directly linking them to the participant list.",
+    "steps": [
+      [
+        "Step 1",
+        "Review the survey's data collection requirements and determine what anonymity means for your study."
+      ],
+      [
+        "Step 2",
+        "During activation, enable Anonymized responses if appropriate."
+      ],
+      [
+        "Step 3",
+        "Review Save IP address, referrer, timing and other metadata settings separately."
+      ],
+      [
+        "Step 4",
+        "Test an invited response and inspect what data are available in export."
+      ]
+    ],
+    "check": [
+      "The response cannot be linked to the participant record through the survey's normal token relationship."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Anonymized responses do not automatically guarantee that free-text answers or other collected information are non-identifying."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-activate-my-survey-and-share-its-link",
+      "how-do-i-invite-specific-participants-to-complete-a-survey",
+      "how-do-i-prevent-duplicate-submissions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-prevent-duplicate-submissions",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I prevent duplicate submissions?",
+    "summary": "Reduce the chance that one person completes the survey more than once.",
+    "keywords": "how do i prevent duplicate submissions? participants & data collection reduce the chance that one person completes the survey more than once.",
+    "goal": "Reduce the chance that one person completes the survey more than once.",
+    "steps": [
+      [
+        "Step 1",
+        "For an invited survey, use Survey participants with unique access tokens and closed access."
+      ],
+      [
+        "Step 2",
+        "Review token-use and completion settings for your study."
+      ],
+      [
+        "Step 3",
+        "Send one test invitation and attempt a second submission with the same token."
+      ],
+      [
+        "Step 4",
+        "Check the response list for unexpected duplicates."
+      ]
+    ],
+    "check": [
+      "The selected token rules behave as expected during testing."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Open public surveys cannot reliably prove that every respondent is a unique person; browser restrictions are not identity verification."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-activate-my-survey-and-share-its-link",
+      "how-do-i-invite-specific-participants-to-complete-a-survey",
+      "how-do-i-make-a-survey-anonymous"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-let-respondents-save-an-unfinished-survey",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I let respondents save an unfinished survey?",
+    "summary": "Allow eligible participants to return to an incomplete questionnaire.",
+    "keywords": "how do i let respondents save an unfinished survey? participants & data collection allow eligible participants to return to an incomplete questionnaire.",
+    "goal": "Allow eligible participants to return to an incomplete questionnaire.",
+    "steps": [
+      [
+        "Step 1",
+        "Review the survey's Participant settings and available save-and-resume options."
+      ],
+      [
+        "Step 2",
+        "If public save-and-resume is enabled, test the save form and later reload using test credentials."
+      ],
+      [
+        "Step 3",
+        "For invited surveys, test the token-based return path separately."
+      ],
+      [
+        "Step 4",
+        "Check which answers remain when the participant resumes."
+      ]
+    ],
+    "check": [
+      "A partially completed survey can be reopened and continued under the selected settings."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not promise resumption for every survey configuration; anonymous, token and save settings can differ."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-activate-my-survey-and-share-its-link",
+      "how-do-i-invite-specific-participants-to-complete-a-survey",
+      "how-do-i-make-a-survey-anonymous"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-view-completed-and-incomplete-responses",
+    "category": "Participants & Data Collection",
+    "level": "Beginner",
+    "title": "How do I view completed and incomplete responses?",
+    "summary": "Find out which test responses were submitted and which were not finished.",
+    "keywords": "how do i view completed and incomplete responses? participants & data collection find out which test responses were submitted and which were not finished.",
+    "goal": "Find out which test responses were submitted and which were not finished.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the activated survey's Responses area."
+      ],
+      [
+        "Step 2",
+        "Choose the browse or response-table view."
+      ],
+      [
+        "Step 3",
+        "Filter or inspect the completion status and dates."
+      ],
+      [
+        "Step 4",
+        "Open individual test records and compare them with your preview runs."
+      ]
+    ],
+    "check": [
+      "You can distinguish submitted records from incomplete records that have been saved."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "An incomplete response may have legitimate blanks; do not automatically treat every missing answer as an error."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Survey_participants",
+    "sourceLabel": "Survey participants manual",
+    "related": [
+      "how-do-i-activate-my-survey-and-share-its-link",
+      "how-do-i-invite-specific-participants-to-complete-a-survey",
+      "how-do-i-make-a-survey-anonymous"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-export-responses-to-excel",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "How do I export responses to Excel?",
+    "summary": "Save survey responses in a spreadsheet for checking or analysis.",
+    "keywords": "how do i export responses to excel? data export & analysis preparation save survey responses in a spreadsheet for checking or analysis.",
+    "goal": "Save survey responses in a spreadsheet for checking or analysis.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the activated survey and choose Responses."
+      ],
+      [
+        "Step 2",
+        "Use the Export option and select the Excel-compatible export format."
+      ],
+      [
+        "Step 3",
+        "Choose the response status, fields and headings appropriate to your analysis."
+      ],
+      [
+        "Step 4",
+        "Download the file and open it in Excel; inspect codes, missing values and data types."
+      ]
+    ],
+    "check": [
+      "The spreadsheet contains the expected records and columns."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Export labels and stored codes can differ; never recode data before checking the questionnaire's codebook."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-survey-data-to-spss",
+      "how-do-i-understand-exported-variable-names-and-codes",
+      "why-are-some-responses-missing-from-my-exported-dataset"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-export-survey-data-to-spss",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "How do I export survey data to SPSS?",
+    "summary": "Transfer responses into SPSS using LimeSurvey's SPSS export facility.",
+    "keywords": "how do i export survey data to spss? data export & analysis preparation transfer responses into spss using limesurvey's spss export facility.",
+    "goal": "Transfer responses into SPSS using LimeSurvey's SPSS export facility.",
+    "steps": [
+      [
+        "Step 1",
+        "Open Responses and choose Export to SPSS/PASW where available."
+      ],
+      [
+        "Step 2",
+        "Download both the SPSS syntax (.sps) and data (.dat) files."
+      ],
+      [
+        "Step 3",
+        "Keep the two files together and open the .sps file in SPSS."
+      ],
+      [
+        "Step 4",
+        "Check the referenced data-file location, run the import syntax and inspect variable labels and value labels."
+      ]
+    ],
+    "check": [
+      "SPSS opens a dataset with the expected response count and variables."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "The syntax file is not the dataset itself; the .dat file is also needed. File path or character-encoding problems can interrupt import."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-responses-to-excel",
+      "how-do-i-understand-exported-variable-names-and-codes",
+      "why-are-some-responses-missing-from-my-exported-dataset"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-understand-exported-variable-names-and-codes",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "How do I understand exported variable names and codes?",
+    "summary": "Match each spreadsheet or SPSS column to its questionnaire item.",
+    "keywords": "how do i understand exported variable names and codes? data export & analysis preparation match each spreadsheet or spss column to its questionnaire item.",
+    "goal": "Match each spreadsheet or SPSS column to its questionnaire item.",
+    "steps": [
+      [
+        "Step 1",
+        "Open your survey Structure and record parent question codes, subquestion codes and answer codes."
+      ],
+      [
+        "Step 2",
+        "Export a few test responses with human-readable headings where available."
+      ],
+      [
+        "Step 3",
+        "Compare the exported columns with the code list."
+      ],
+      [
+        "Step 4",
+        "Prepare a simple codebook of variable name, wording, response scale and missing-value meaning."
+      ]
+    ],
+    "check": [
+      "Every analysis variable can be traced back to one survey item or response option."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Array questions and multiple-choice questions often generate more than one output column."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-responses-to-excel",
+      "how-do-i-export-survey-data-to-spss",
+      "why-are-some-responses-missing-from-my-exported-dataset"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-are-some-responses-missing-from-my-exported-dataset",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "Why are some responses missing from my exported dataset?",
+    "summary": "Find out why the export has fewer rows or blank fields.",
+    "keywords": "why are some responses missing from my exported dataset? data export & analysis preparation find out why the export has fewer rows or blank fields.",
+    "goal": "Find out why the export has fewer rows or blank fields.",
+    "steps": [
+      [
+        "Step 1",
+        "Compare the count in Responses with the count in the exported file."
+      ],
+      [
+        "Step 2",
+        "Check whether the export was limited to completed responses or a selected date range."
+      ],
+      [
+        "Step 3",
+        "Look for unanswered optional questions and questions hidden by relevance conditions."
+      ],
+      [
+        "Step 4",
+        "Repeat the export with the intended filters and compare the counts."
+      ]
+    ],
+    "check": [
+      "The difference between stored records, exported rows and blank fields can be explained."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Hidden-by-design answers should not automatically be treated as careless missing data."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-responses-to-excel",
+      "how-do-i-export-survey-data-to-spss",
+      "how-do-i-understand-exported-variable-names-and-codes"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-identify-incomplete-responses",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "How do I identify incomplete responses?",
+    "summary": "Separate unfinished questionnaires from submitted responses.",
+    "keywords": "how do i identify incomplete responses? data export & analysis preparation separate unfinished questionnaires from submitted responses.",
+    "goal": "Separate unfinished questionnaires from submitted responses.",
+    "steps": [
+      [
+        "Step 1",
+        "Open Responses and find the completion or submission status field."
+      ],
+      [
+        "Step 2",
+        "Filter for submitted and incomplete records separately."
+      ],
+      [
+        "Step 3",
+        "Review how far incomplete responses progressed and what was saved."
+      ],
+      [
+        "Step 4",
+        "Export both subsets if permitted by your research protocol."
+      ]
+    ],
+    "check": [
+      "Each record is classified according to the selected completion rule."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not delete incomplete records without an agreed data-cleaning policy and an audit trail."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-responses-to-excel",
+      "how-do-i-export-survey-data-to-spss",
+      "how-do-i-understand-exported-variable-names-and-codes"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-prepare-likert-scale-data-for-statistical-analysis",
+    "category": "Data Export & Analysis Preparation",
+    "level": "Intermediate",
+    "title": "How do I prepare Likert-scale data for statistical analysis?",
+    "summary": "Make exported agreement-scale answers ready for SPSS or SmartPLS.",
+    "keywords": "how do i prepare likert-scale data for statistical analysis? data export & analysis preparation make exported agreement-scale answers ready for spss or smartpls.",
+    "goal": "Make exported agreement-scale answers ready for SPSS or SmartPLS.",
+    "steps": [
+      [
+        "Step 1",
+        "Confirm which question items and scale points were actually used."
+      ],
+      [
+        "Step 2",
+        "Export the responses and compare stored answer values with the labels in LimeSurvey."
+      ],
+      [
+        "Step 3",
+        "Check whether higher numbers mean greater agreement for every item."
+      ],
+      [
+        "Step 4",
+        "Document reverse-coded items, missing values and response coding in a codebook."
+      ],
+      [
+        "Step 5",
+        "Only then create the SPSS or SmartPLS analysis dataset."
+      ]
+    ],
+    "check": [
+      "Each item has an interpretable value range and documented coding direction."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Do not assume Likert labels automatically export as numeric 1–5 or 1–7; verify the file."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Exporting_results",
+    "sourceLabel": "Exporting results manual",
+    "related": [
+      "how-do-i-export-responses-to-excel",
+      "how-do-i-export-survey-data-to-spss",
+      "how-do-i-understand-exported-variable-names-and-codes"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-is-my-question-not-appearing-in-the-survey",
+    "category": "Problems & Quick Fixes",
+    "level": "Beginner",
+    "title": "Why is my question not appearing in the survey?",
+    "summary": "Find a question that is in Structure but missing for respondents.",
+    "keywords": "why is my question not appearing in the survey? problems & quick fixes find a question that is in structure but missing for respondents.",
+    "goal": "Find a question that is in Structure but missing for respondents.",
+    "steps": [
+      [
+        "Step 1",
+        "Check that you are previewing the correct question group and language."
+      ],
+      [
+        "Step 2",
+        "Open the question and inspect its relevance or conditions, including any group-level rule."
+      ],
+      [
+        "Step 3",
+        "Confirm the parent screening question is answered in the triggering way."
+      ],
+      [
+        "Step 4",
+        "Use Check survey logic and retest in a fresh full-survey preview."
+      ]
+    ],
+    "check": [
+      "The question appears under the intended conditions and stays hidden otherwise."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "An inactive or irrelevant question may be intentionally hidden; do not remove conditions without understanding the research logic."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Check_survey_logic_-_Advanced",
+    "sourceLabel": "Check survey logic",
+    "related": [
+      "why-is-my-survey-link-not-opening",
+      "why-can-i-no-longer-edit-certain-survey-settings",
+      "why-is-my-multiple-choice-question-allowing-only-one-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-is-my-survey-link-not-opening",
+    "category": "Problems & Quick Fixes",
+    "level": "Beginner",
+    "title": "Why is my survey link not opening?",
+    "summary": "Diagnose a URL that participants cannot access.",
+    "keywords": "why is my survey link not opening? problems & quick fixes diagnose a url that participants cannot access.",
+    "goal": "Diagnose a URL that participants cannot access.",
+    "steps": [
+      [
+        "Step 1",
+        "Copy the Survey URL from the active survey's overview rather than from the editing page."
+      ],
+      [
+        "Step 2",
+        "Check whether the survey is activated, expired or closed by date settings."
+      ],
+      [
+        "Step 3",
+        "If access tokens are used, confirm the respondent has a valid invitation."
+      ],
+      [
+        "Step 4",
+        "Test the exact URL in a private browser window and note any error message."
+      ]
+    ],
+    "check": [
+      "An authorized test participant can open the public or invitation link."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Administrator preview links and respondent survey links are not interchangeable."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Check_survey_logic_-_Advanced",
+    "sourceLabel": "Check survey logic",
+    "related": [
+      "why-is-my-question-not-appearing-in-the-survey",
+      "why-can-i-no-longer-edit-certain-survey-settings",
+      "why-is-my-multiple-choice-question-allowing-only-one-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-can-i-no-longer-edit-certain-survey-settings",
+    "category": "Problems & Quick Fixes",
+    "level": "Beginner",
+    "title": "Why can I no longer edit certain survey settings?",
+    "summary": "Understand why editing options changed after survey activation.",
+    "keywords": "why can i no longer edit certain survey settings? problems & quick fixes understand why editing options changed after survey activation.",
+    "goal": "Understand why editing options changed after survey activation.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the survey overview and check whether it is active."
+      ],
+      [
+        "Step 2",
+        "Identify whether the intended change would alter the response table or existing data."
+      ],
+      [
+        "Step 3",
+        "For wording or logic changes, inspect what LimeSurvey permits and assess the impact on ongoing data collection."
+      ],
+      [
+        "Step 4",
+        "If structural redesign is necessary, plan a new survey or controlled migration with a backup."
+      ]
+    ],
+    "check": [
+      "You can identify whether the restriction comes from activation or account permissions."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Deactivating a live survey can affect response availability and study continuity; back up data before changing its state."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Check_survey_logic_-_Advanced",
+    "sourceLabel": "Check survey logic",
+    "related": [
+      "why-is-my-question-not-appearing-in-the-survey",
+      "why-is-my-survey-link-not-opening",
+      "why-is-my-multiple-choice-question-allowing-only-one-answer"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-is-my-multiple-choice-question-allowing-only-one-answer",
+    "category": "Problems & Quick Fixes",
+    "level": "Beginner",
+    "title": "Why is my multiple-choice question allowing only one answer?",
+    "summary": "Correct a question that should accept several selected options.",
+    "keywords": "why is my multiple-choice question allowing only one answer? problems & quick fixes correct a question that should accept several selected options.",
+    "goal": "Correct a question that should accept several selected options.",
+    "steps": [
+      [
+        "Step 1",
+        "Open Structure and select the affected question."
+      ],
+      [
+        "Step 2",
+        "Check its question type; List (radio) permits one choice, while Multiple choice permits several."
+      ],
+      [
+        "Step 3",
+        "If the survey is not active, change or rebuild the question with the correct type."
+      ],
+      [
+        "Step 4",
+        "Preview and test selecting several options before activation."
+      ]
+    ],
+    "check": [
+      "Two or more selections can remain active at the same time."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Changing a question type on an active survey may be restricted or may affect saved response data."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Check_survey_logic_-_Advanced",
+    "sourceLabel": "Check survey logic",
+    "related": [
+      "why-is-my-question-not-appearing-in-the-survey",
+      "why-is-my-survey-link-not-opening",
+      "why-can-i-no-longer-edit-certain-survey-settings"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "why-are-my-answer-options-appearing-incorrectly",
+    "category": "Problems & Quick Fixes",
+    "level": "Beginner",
+    "title": "Why are my answer options appearing incorrectly?",
+    "summary": "Fix missing, misordered or mismatched answer choices.",
+    "keywords": "why are my answer options appearing incorrectly? problems & quick fixes fix missing, misordered or mismatched answer choices.",
+    "goal": "Fix missing, misordered or mismatched answer choices.",
+    "steps": [
+      [
+        "Step 1",
+        "Open the affected question in Structure and inspect its answer options or subquestions."
+      ],
+      [
+        "Step 2",
+        "Check spelling, codes, order and whether the correct question type was chosen."
+      ],
+      [
+        "Step 3",
+        "For arrays, inspect both the statement rows and answer columns."
+      ],
+      [
+        "Step 4",
+        "Save and preview on a phone-sized screen as well as a desktop."
+      ]
+    ],
+    "check": [
+      "The correct labels appear in the correct places and record the intended values."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Question text, answer codes and display labels are separate fields; editing one does not automatically fix the others."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Check_survey_logic_-_Advanced",
+    "sourceLabel": "Check survey logic",
+    "related": [
+      "why-is-my-question-not-appearing-in-the-survey",
+      "why-is-my-survey-link-not-opening",
+      "why-can-i-no-longer-edit-certain-survey-settings"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
+    "category": "Research Scenarios & Video Help",
+    "level": "Intermediate",
+    "title": "How do I build a complete Sustainable Marketing questionnaire?",
+    "summary": "Convert a five-group Sustainable Marketing questionnaire into a working survey.",
+    "keywords": "how do i build a complete sustainable marketing questionnaire? research scenarios & video help convert a five-group sustainable marketing questionnaire into a working survey.",
+    "goal": "Convert a five-group Sustainable Marketing questionnaire into a working survey.",
+    "steps": [
+      [
+        "Step 1",
+        "Create groups for Sustainable Marketing Perceptions, Green Purchase Intention, Demographics, Sustainable Behavior and Open Responses."
+      ],
+      [
+        "Step 2",
+        "Use a five-point agreement array for SMP1–SMP3 and a customizable seven-point array for GPI1–GPI3."
+      ],
+      [
+        "Step 3",
+        "Add single-choice GEN and AGE, multiple-choice SCB1, and long free text OPEN1."
+      ],
+      [
+        "Step 4",
+        "Check the difference between the multiple-choice behavior item and any mistakenly written Single Choice label."
+      ],
+      [
+        "Step 5",
+        "Preview every group, test answers and export practice responses."
+      ]
+    ],
+    "check": [
+      "All ten source items are represented with the intended response formats."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "The source document's Education item was listed in a summary but not supplied as a question; do not invent it without deciding to add it."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "how-do-i-create-a-screening-question-for-research-participants",
+      "how-do-i-design-a-survey-for-an-experiment-with-three-conditions",
+      "how-do-i-use-limesurvey-to-collect-data-for-pls-sem-research"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-create-a-screening-question-for-research-participants",
+    "category": "Research Scenarios & Video Help",
+    "level": "Intermediate",
+    "title": "How do I create a screening question for research participants?",
+    "summary": "Include only participants who meet the study's eligibility criteria.",
+    "keywords": "how do i create a screening question for research participants? research scenarios & video help include only participants who meet the study's eligibility criteria.",
+    "goal": "Include only participants who meet the study's eligibility criteria.",
+    "steps": [
+      [
+        "Step 1",
+        "Create a screening question near the start with explicit eligible and ineligible response options."
+      ],
+      [
+        "Step 2",
+        "Use a condition or group relevance rule to display the main study only to eligible respondents."
+      ],
+      [
+        "Step 3",
+        "Provide a respectful, clear closing message for ineligible respondents where feasible."
+      ],
+      [
+        "Step 4",
+        "Test eligible, ineligible and unanswered paths; inspect whether any ineligible data are stored."
+      ]
+    ],
+    "check": [
+      "Ineligible participants cannot enter the main study questions."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Eligibility decisions should follow your ethics approval and recruitment protocol; avoid collecting unnecessary identifying information."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
+      "how-do-i-design-a-survey-for-an-experiment-with-three-conditions",
+      "how-do-i-use-limesurvey-to-collect-data-for-pls-sem-research"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-design-a-survey-for-an-experiment-with-three-conditions",
+    "category": "Research Scenarios & Video Help",
+    "level": "Intermediate",
+    "title": "How do I design a survey for an experiment with three conditions?",
+    "summary": "Prepare control, treatment A and treatment B versions of a survey.",
+    "keywords": "how do i design a survey for an experiment with three conditions? research scenarios & video help prepare control, treatment a and treatment b versions of a survey.",
+    "goal": "Prepare control, treatment A and treatment B versions of a survey.",
+    "steps": [
+      [
+        "Step 1",
+        "Write the three stimulus texts and common outcome questions before building the survey."
+      ],
+      [
+        "Step 2",
+        "Create three separate stimulus groups with a shared outcome group after them."
+      ],
+      [
+        "Step 3",
+        "Define a stable assignment variable and add group relevance rules based on the assigned condition."
+      ],
+      [
+        "Step 4",
+        "Test the three intended pathways and repeat fresh random assignments."
+      ],
+      [
+        "Step 5",
+        "Export practice data and check stimulus exposure against saved condition values."
+      ]
+    ],
+    "check": [
+      "Each response sees one stimulus group, then the common outcome measures; group membership is recorded."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Exact implementation of random assignment in 3.28 must be tested locally; simple shuffling is not equivalent to assigning conditions."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
+      "how-do-i-create-a-screening-question-for-research-participants",
+      "how-do-i-use-limesurvey-to-collect-data-for-pls-sem-research"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "how-do-i-use-limesurvey-to-collect-data-for-pls-sem-research",
+    "category": "Research Scenarios & Video Help",
+    "level": "Intermediate",
+    "title": "How do I use LimeSurvey to collect data for PLS-SEM research?",
+    "summary": "Collect a clean set of indicator responses for constructs in a PLS-SEM model.",
+    "keywords": "how do i use limesurvey to collect data for pls-sem research? research scenarios & video help collect a clean set of indicator responses for constructs in a pls-sem model.",
+    "goal": "Collect a clean set of indicator responses for constructs in a PLS-SEM model.",
+    "steps": [
+      [
+        "Step 1",
+        "List constructs and indicator codes before creating the survey."
+      ],
+      [
+        "Step 2",
+        "Create separate question groups or arrays with consistent response scales for each construct."
+      ],
+      [
+        "Step 3",
+        "Use meaningful subquestion codes for each indicator and preserve original wording."
+      ],
+      [
+        "Step 4",
+        "Pilot the survey, activate it and export test responses."
+      ],
+      [
+        "Step 5",
+        "Create a codebook and check missing values and reverse-coded items before analysis."
+      ]
+    ],
+    "check": [
+      "Every expected construct indicator has a matching column and valid response values."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "LimeSurvey collects data; it does not establish measurement validity or run PLS-SEM by itself."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
+      "how-do-i-create-a-screening-question-for-research-participants",
+      "how-do-i-design-a-survey-for-an-experiment-with-three-conditions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+  },
+  {
+    "id": "where-can-i-find-reliable-limesurvey-3-video-demonstrations",
+    "category": "Research Scenarios & Video Help",
+    "level": "Intermediate",
+    "title": "Where can I find reliable LimeSurvey 3 video demonstrations?",
+    "summary": "Find explanations that match the older LimeSurvey 3 interface.",
+    "keywords": "where can i find reliable limesurvey 3 video demonstrations? research scenarios & video help find explanations that match the older limesurvey 3 interface.",
+    "goal": "Find explanations that match the older LimeSurvey 3 interface.",
+    "steps": [
+      [
+        "Step 1",
+        "Start with the official LimeSurvey manual and search specifically for LimeSurvey 3.0 or 3.x demonstrations."
+      ],
+      [
+        "Step 2",
+        "Check each video's software version and publishing date before following menu instructions."
+      ],
+      [
+        "Step 3",
+        "Compare the demonstration with your installed Version 3.28.73 interface."
+      ],
+      [
+        "Step 4",
+        "Use the Help Hub written guide as the reference if a video uses newer menus."
+      ]
+    ],
+    "check": [
+      "The chosen video shows a sufficiently similar interface and achieves the intended task."
+    ],
+    "mistakes": [
+      [
+        "Important to know",
+        "Videos for newer LimeSurvey versions may show different editors and menus; verify before copying the steps."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
+      "how-do-i-create-a-screening-question-for-research-participants",
+      "how-do-i-design-a-survey-for-an-experiment-with-three-conditions"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
   }
 ]
