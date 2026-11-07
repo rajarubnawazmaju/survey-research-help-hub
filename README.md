@@ -37,3 +37,11 @@ No AI API, API key, login, tracking, analytics, backend or personal data collect
 
 ## V2 visual refresh
 The new `styles.css` contains the colorful design system. The root `index.html`, `articles.json`, and `roadmap.json` should remain together. No build command is required. Deploy the **contents** of this folder to the GitHub repository root; commit and Netlify will deploy automatically. Do not publish keys or private student information. Fonts are loaded from Google Fonts; local system fonts serve as a fallback if unavailable.
+
+
+## V3 visual theme (user-supplied)
+- Deep plum: `#572E54` — header identity, buttons, emphasis and footer.
+- Warm cream: `#E2D2C8` — warm gradients and supporting backgrounds.
+- Muted mauve: `#CEB2BD` — accent gradients and category details.
+- Secondary shades are derived from these three reference swatches for readable contrast.
+- No content, search logic, hosting architecture or API requirements changed.
