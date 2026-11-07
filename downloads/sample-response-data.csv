@@ -1,0 +1,6 @@
+﻿response_id,SMP1,SMP2,SMP3,GPI1,GPI2,GPI3,GEN,AGE,SCB1_eco,SCB1_bags,SCB1_plastic,SCB1_none,OPEN1
+1,4,5,3,6,6,5,Female,25-34,1,1,1,0,Reduce packaging
+2,3,4,3,4,5,4,Male,18-24,0,1,1,0,Improve recycling
+3,5,5,4,7,6,7,Prefer not to say,35-44,1,1,1,0,Use renewable energy
+4,2,3,2,3,3,2,Other,25-34,0,0,0,1,Be transparent
+5,4,4,5,5,6,5,Female,45-54,1,0,1,0,Make products last longer

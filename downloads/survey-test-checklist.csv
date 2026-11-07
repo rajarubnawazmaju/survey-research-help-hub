@@ -1,0 +1,13 @@
+﻿Area,What to check,Status (Pass/Fail/Not tested),Notes
+Consent,Consent text and withdrawal arrangements have been reviewed,,
+Structure,All groups and questions appear in intended order,,
+Likert scales,Each SMP item has 5 response categories; each GPI item has 7,,
+Choice constraints,Gender/age allow only one option; SCB allows multiple,,
+None of the above,Exclusive option cannot be selected alongside another action,,
+Logic,Every relevant condition tested for Yes and No paths,,
+Randomization,Repeated fresh responses show only permitted experimental conditions,,
+Anonymity,"Privacy settings tested, no identifiers collected inadvertently",,
+Mobile,Questions display and submit correctly on narrow screen,,
+Responses,Completed and incomplete responses inspected,,
+Export,Excel/CSV field names and missing values verified,,
+SPSS,Both syntax and data exported and imported successfully,,

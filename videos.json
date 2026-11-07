@@ -1,5 +1,143 @@
 [
   {
+    "id": "en-create-basic",
+    "title": "Creating a basic LimeSurvey questionnaire",
+    "topic": "Getting Started",
+    "language": "English",
+    "provider": "LimeSurvey tutorial (linked by research institute)",
+    "year": 2016,
+    "url": "https://www.youtube.com/watch?v=7yx6kSK6Ar4",
+    "description": "An older demonstration of setting up a survey. Interface may differ from 3.28.",
+    "match": [
+      "create my first survey",
+      "save and preview",
+      "add a question group",
+      "question"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-array",
+    "title": "Question type: Array",
+    "topic": "Questionnaire Design",
+    "language": "English",
+    "provider": "LimeSurvey official manual video",
+    "year": "Earlier version",
+    "url": "https://www.youtube.com/watch?v=7134QebOQzY",
+    "description": "See how array or matrix questions work. Check options in version 3.28.",
+    "match": [
+      "likert",
+      "array",
+      "question matrix",
+      "statements"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-radio",
+    "title": "Question type: Radio list",
+    "topic": "Questionnaire Design",
+    "language": "English",
+    "provider": "LimeSurvey official manual video",
+    "year": "Earlier version",
+    "url": "https://www.youtube.com/watch?v=7N4xUQMWbJY",
+    "description": "See how to create a question with one selectable answer.",
+    "match": [
+      "one answer",
+      "single choice",
+      "gender",
+      "age",
+      "radio"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-copy",
+    "title": "Copy or import a survey",
+    "topic": "Getting Started",
+    "language": "English",
+    "provider": "LimeSurvey official manual video",
+    "year": "Earlier version",
+    "url": "https://www.youtube.com/watch?v=UI01hwrsiVk",
+    "description": "Learn how existing survey structures can be reused or imported.",
+    "match": [
+      "copy an existing survey",
+      "import a survey",
+      "lss"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-import-question",
+    "title": "Import a question",
+    "topic": "Getting Started",
+    "language": "English",
+    "provider": "LimeSurvey official manual video",
+    "year": "Earlier version",
+    "url": "https://www.youtube.com/watch?v=QEHyH1YbNEQ",
+    "description": "A walkthrough of importing a question into a survey.",
+    "match": [
+      "add, edit, copy",
+      "import",
+      "question"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-survey-old",
+    "title": "Create your first LimeSurvey survey (classic introduction)",
+    "topic": "Getting Started",
+    "language": "English",
+    "provider": "LimeSurvey community video on Vimeo",
+    "year": "Older version",
+    "url": "https://vimeo.com/17719232",
+    "description": "Short introduction to survey concepts. Older than LimeSurvey 3; compare menus carefully.",
+    "match": [
+      "create my first survey",
+      "question group",
+      "survey"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
+    "id": "en-survey-new",
+    "title": "Create a survey — LimeSurvey 6 demonstration",
+    "topic": "Getting Started",
+    "language": "English (AI translation)",
+    "provider": "LimeSurvey-Tutorials / Paul Borsdorf",
+    "year": 2023,
+    "url": "https://www.youtube.com/watch?v=H8hQ4kk55SM",
+    "description": "English-language demonstration of LimeSurvey 6. CAUTION: menus differ from your LimeSurvey 3.28.",
+    "match": [
+      "create my first survey",
+      "survey"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Modern version; interface differs from 3.28"
+  },
+  {
+    "id": "en-account",
+    "title": "Set up a LimeSurvey account and installation",
+    "topic": "Getting Started",
+    "language": "English",
+    "provider": "LimeSurvey GmbH",
+    "year": 2017,
+    "url": "https://www.youtube.com/watch?v=oyoq14XpkwA",
+    "description": "Official account setup video. Not required for users with an existing university account.",
+    "match": [
+      "create my first survey",
+      "getting started"
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
+  },
+  {
     "id": "v-create",
     "title": "Create a LimeSurvey questionnaire",
     "topic": "Getting Started",
@@ -7,13 +145,15 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2020,
     "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/41997",
-    "description": "A demonstration of creating a survey. The older interface is relevant to LimeSurvey 3.28.",
+    "description": "A demonstration of creating a survey. The older interface is relevant to LimeSurvey 3.28. German audio; use as supplementary visual reference.",
     "match": [
       "create my first survey",
       "copy an existing survey",
       "save and preview",
       "survey and share its link"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-matrix",
@@ -23,12 +163,14 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2020,
     "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/42002",
-    "description": "See how matrix-style questions are arranged for related research statements.",
+    "description": "See how matrix-style questions are arranged for related research statements. German audio; use as supplementary visual reference.",
     "match": [
       "likert",
       "array",
       "statements in one question matrix"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-multiple",
@@ -38,11 +180,13 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2020,
     "url": "https://lecture2go.uni-hamburg.de/l2go/-/get/v/43331",
-    "description": "Demonstrates choosing multiple answers instead of just one.",
+    "description": "Demonstrates choosing multiple answers instead of just one. German audio; use as supplementary visual reference.",
     "match": [
       "select several answers",
       "multiple-choice"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-conditions",
@@ -52,7 +196,7 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2020,
     "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/42003",
-    "description": "A visual explanation of conditions and filters.",
+    "description": "A visual explanation of conditions and filters. German audio; use as supplementary visual reference.",
     "match": [
       "condition",
       "skip questions",
@@ -61,7 +205,9 @@
       "follow-up",
       "relevance equation",
       "hide or display"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-random-groups",
@@ -71,14 +217,16 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2021,
     "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/50449",
-    "description": "Shows how random assignment can be used to create respondent groups. Test carefully with your study design.",
+    "description": "Shows how random assignment can be used to create respondent groups. Test carefully with your study design. German audio; use as supplementary visual reference.",
     "match": [
       "randomly divide",
       "control group",
       "treatment groups",
       "experimental groups",
       "randomization is working"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-random-one",
@@ -88,13 +236,15 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2021,
     "url": "https://lecture2go.uni-hamburg.de/l2go/-/get/v/57443",
-    "description": "An example of selecting one question at random. Selecting a complete pair requires extra logic and testing.",
+    "description": "An example of selecting one question at random. Selecting a complete pair requires extra logic and testing. German audio; use as supplementary visual reference.",
     "match": [
       "one pair of questions",
       "randomly show",
       "randomly change",
       "related questions together"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-spss",
@@ -104,13 +254,15 @@
     "provider": "Paul Borsdorf · YouTube",
     "year": 2020,
     "url": "https://www.youtube.com/watch?v=rXtHUvTzLh0",
-    "description": "Shows the SPSS syntax and data export workflow.",
+    "description": "Shows the SPSS syntax and data export workflow. German audio; use as supplementary visual reference.",
     "match": [
       "SPSS",
       "export",
       "variable names",
       "incomplete responses"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   },
   {
     "id": "v-anonymous",
@@ -120,11 +272,13 @@
     "provider": "Paul Borsdorf · University of Hamburg",
     "year": 2021,
     "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/58548",
-    "description": "Explains anonymity-related survey settings. Confirm local privacy requirements.",
+    "description": "Explains anonymity-related survey settings. Confirm local privacy requirements. German audio; use as supplementary visual reference.",
     "match": [
       "anonymous",
       "participant",
       "survey link"
-    ]
+    ],
+    "playbackChecked": false,
+    "versionNote": "Older or unspecified interface; compare with written 3.28 steps"
   }
 ]

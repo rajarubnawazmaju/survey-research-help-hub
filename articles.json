@@ -60,7 +60,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-checked; local interface screenshots pending"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "add-group",
@@ -123,7 +124,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-checked; local interface screenshots pending"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "add-question",
@@ -190,7 +192,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-checked; local interface screenshots pending"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "preview-survey",
@@ -253,7 +256,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-checked; local interface screenshots pending"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "five-point",
@@ -317,14 +321,16 @@
       ]
     ],
     "source": "https://www.limesurvey.org/manual/Question_type_-_Array",
-    "sourceLabel": "LimeSurvey Array question documentation",
+    "sourceLabel": "Official manual: flexible Array question",
     "related": [
       "add-question",
       "preview-survey"
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-checked; local interface screenshots pending"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "LimeSurvey 3 has a predefined numeric Array (5 point choice). To display full verbal labels in five columns, use the flexible Array question type with five explicitly labeled answer options instead."
   },
   {
     "id": "how-do-i-change-the-title-welcome-message-or-language",
@@ -370,7 +376,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-copy-an-existing-survey",
@@ -416,7 +423,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-import-a-survey-using-an-lss-file",
@@ -462,7 +470,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-show-a-question-only-when-someone-selects-yes",
@@ -508,7 +517,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-skip-questions-that-do-not-apply-to-a-participant",
@@ -554,7 +564,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-make-a-question-compulsory-or-optional",
@@ -600,7 +611,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-show-a-follow-up-question-based-on-an-earlier-answer",
@@ -646,7 +658,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-hide-or-display-an-entire-question-group",
@@ -692,7 +705,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-allow-a-question-only-when-two-conditions-are-met",
@@ -738,7 +752,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-is-my-condition-or-relevance-equation-not-working",
@@ -784,7 +799,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-randomly-show-only-one-pair-of-questions",
@@ -834,7 +850,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-randomly-divide-participants-into-experimental-groups",
@@ -884,7 +902,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-randomly-change-the-order-of-questions",
@@ -930,7 +950,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-keep-related-questions-together-during-randomization",
@@ -976,7 +997,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-show-different-scenarios-to-different-participants",
@@ -1026,7 +1048,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-create-a-control-group-and-treatment-groups",
@@ -1076,7 +1100,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-check-whether-randomization-is-working-correctly",
@@ -1126,7 +1152,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-create-a-7-point-likert-scale",
@@ -1172,7 +1199,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-allow-only-one-answer-from-several-choices",
@@ -1214,7 +1242,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-allow-participants-to-select-several-answers",
@@ -1260,7 +1289,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Your sample questionnaire says Single Choice but also allows multiple selections. Use Multiple choice, and configure None of the above as an exclusive option where applicable."
   },
   {
     "id": "how-do-i-add-an-open-ended-text-question",
@@ -1306,7 +1337,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-put-several-statements-in-one-question-matrix",
@@ -1352,7 +1384,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-add-an-other-option-or-a-none-of-the-above-option",
@@ -1398,7 +1431,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-activate-my-survey-and-share-its-link",
@@ -1448,7 +1482,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-invite-specific-participants-to-complete-a-survey",
@@ -1494,7 +1529,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-make-a-survey-anonymous",
@@ -1540,7 +1576,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-prevent-duplicate-submissions",
@@ -1586,7 +1624,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-let-respondents-save-an-unfinished-survey",
@@ -1632,7 +1672,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-view-completed-and-incomplete-responses",
@@ -1678,7 +1719,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-export-responses-to-excel",
@@ -1724,7 +1766,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-export-survey-data-to-spss",
@@ -1762,7 +1805,7 @@
       ]
     ],
     "source": "https://www.limesurvey.org/manual/Exporting_results",
-    "sourceLabel": "Exporting results manual",
+    "sourceLabel": "Official manual: SPSS export",
     "related": [
       "how-do-i-export-responses-to-excel",
       "how-do-i-understand-exported-variable-names-and-codes",
@@ -1770,7 +1813,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Classic SPSS export commonly supplies both .sps syntax and .dat data files. Keep both together and check the /FILE path in SPSS syntax before running it."
   },
   {
     "id": "how-do-i-understand-exported-variable-names-and-codes",
@@ -1816,7 +1861,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-are-some-responses-missing-from-my-exported-dataset",
@@ -1862,7 +1908,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-identify-incomplete-responses",
@@ -1908,7 +1955,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-prepare-likert-scale-data-for-statistical-analysis",
@@ -1958,7 +2006,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-is-my-question-not-appearing-in-the-survey",
@@ -2004,7 +2053,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-is-my-survey-link-not-opening",
@@ -2050,7 +2100,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-can-i-no-longer-edit-certain-survey-settings",
@@ -2096,7 +2147,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-is-my-multiple-choice-question-allowing-only-one-answer",
@@ -2142,7 +2194,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "why-are-my-answer-options-appearing-incorrectly",
@@ -2188,7 +2241,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-build-a-complete-sustainable-marketing-questionnaire",
@@ -2238,7 +2292,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-create-a-screening-question-for-research-participants",
@@ -2284,7 +2339,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "how-do-i-design-a-survey-for-an-experiment-with-three-conditions",
@@ -2334,7 +2390,9 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false,
+    "caution": "Research-critical setting. This is a design guide, not a validated ready-to-run configuration. Test in your own LimeSurvey 3.28 installation, inspect the exported response data, and obtain local approval before collecting real responses."
   },
   {
     "id": "how-do-i-use-limesurvey-to-collect-data-for-pls-sem-research",
@@ -2384,7 +2442,8 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   },
   {
     "id": "where-can-i-find-reliable-limesurvey-3-video-demonstrations",
@@ -2430,6 +2489,7 @@
     ],
     "version": "3.28.73+230906",
     "review": "2026-11-07",
-    "verified": "Documentation-guided; confirm menu labels and advanced settings on your local installation"
+    "verified": "Reviewed against published documentation; local 3.28 click-testing and screenshots remain pending",
+    "testedInInstallation": false
   }
 ]

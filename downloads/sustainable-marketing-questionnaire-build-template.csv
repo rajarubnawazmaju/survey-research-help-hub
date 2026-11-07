@@ -1,0 +1,11 @@
+﻿Parent Question Code (suggested),Question Group,LimeSurvey 3 Question Type,Response Scale,Item or Subquestion Code,Question Wording
+SMP,Sustainable Marketing Perceptions,Array,5-point,SMP1,I prefer to purchase products from companies that actively support environmental sustainability.
+SMP,Sustainable Marketing Perceptions,Array,5-point,SMP2,A company's environmental practices influence my purchasing decisions.
+SMP,Sustainable Marketing Perceptions,Array,5-point,SMP3,I am willing to pay a slightly higher price for environmentally friendly products.
+GPI,Green Purchase Intention,Array,7-point,GPI1,I intend to purchase environmentally friendly products whenever possible.
+GPI,Green Purchase Intention,Array,7-point,GPI2,I will actively seek sustainable alternatives when shopping.
+GPI,Green Purchase Intention,Array,7-point,GPI3,I plan to increase my purchases of eco-friendly products in the future.
+GEN,Demographic Information,List (radio),Single choice,GEN,What is your gender?
+AGE,Demographic Information,List (radio),Single choice,AGE,Which age category do you belong to?
+SCB1,Sustainable Consumption Behavior,Multiple choice,Select all that apply,SCB1,Which sustainable actions have you practiced during the last six months?
+OPEN1,Open-Ended Responses,Long free text,Text,OPEN1,"In your opinion, what should companies do to become more environmentally responsible?"
