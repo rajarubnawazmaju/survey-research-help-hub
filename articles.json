@@ -1,0 +1,325 @@
+[
+  {
+    "id": "create-survey",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I create my first survey in LimeSurvey?",
+    "summary": "Start a new, empty survey and give it a clear name.",
+    "keywords": "new create start title welcome settings text elements survey",
+    "goal": "Create an empty Sustainable Marketing survey without publishing it.",
+    "steps": [
+      [
+        "Open your LimeSurvey account",
+        "Sign in to the LimeSurvey 3.28 installation supplied by your university."
+      ],
+      [
+        "Choose Create survey",
+        "On the LimeSurvey homepage, select the Create survey box."
+      ],
+      [
+        "Give the survey a title",
+        "Enter “Sustainable Marketing Research Survey” in Survey Title."
+      ],
+      [
+        "Check the language",
+        "Select the Basic Language you will use with your participants. Choose carefully, as the base language cannot simply be changed later."
+      ],
+      [
+        "Add a welcome message",
+        "Under Text elements, enter a short welcome message and a brief description, if useful."
+      ],
+      [
+        "Save the survey",
+        "Select Save in the upper-right area. LimeSurvey opens the new survey overview."
+      ]
+    ],
+    "check": [
+      "The new survey appears in your survey list.",
+      "You can open its overview and see the title.",
+      "The survey is not yet activated or open to respondents."
+    ],
+    "mistakes": [
+      [
+        "I cannot find Create survey",
+        "Return to the LimeSurvey homepage. Your university account may also lack permission to create surveys."
+      ],
+      [
+        "I think saving has published my survey",
+        "Saving creates the survey design; activation is a separate action."
+      ],
+      [
+        "I cannot change the base language",
+        "Check the Basic Language before creating the survey. Additional languages can be configured separately."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "add-group",
+      "add-question"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-checked; local interface screenshots pending"
+  },
+  {
+    "id": "add-group",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I add a question group?",
+    "summary": "Organize related questions into clear sections.",
+    "keywords": "section add group structure organize order question group",
+    "goal": "Create a section called Sustainable Marketing Perceptions to hold related questions.",
+    "steps": [
+      [
+        "Open your survey",
+        "From your survey list, select the survey you want to edit."
+      ],
+      [
+        "Switch to Structure",
+        "In the left-hand survey menu, select Structure rather than Settings."
+      ],
+      [
+        "Select Add question group",
+        "Choose Add question group from the Structure area."
+      ],
+      [
+        "Enter the group title",
+        "In Title, type “Sustainable Marketing Perceptions”. You may add a short description."
+      ],
+      [
+        "Leave advanced fields alone",
+        "For this beginner example, leave Randomization Group empty and the default relevance setting unchanged."
+      ],
+      [
+        "Save the new group",
+        "Select Save. The group should now appear in the survey structure."
+      ]
+    ],
+    "check": [
+      "The group appears under Structure.",
+      "Its title is spelled correctly.",
+      "The group is ready for its first question."
+    ],
+    "mistakes": [
+      [
+        "I cannot add questions",
+        "First create at least one question group."
+      ],
+      [
+        "I accidentally used Settings",
+        "Switch to the Structure tab in the left-hand menu."
+      ],
+      [
+        "My group is in the wrong position",
+        "Use the survey Structure view to arrange groups in the desired order before activating the survey."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "create-survey",
+      "add-question"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-checked; local interface screenshots pending"
+  },
+  {
+    "id": "add-question",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I add, edit, copy or delete a question?",
+    "summary": "Learn the main question-editing actions in LimeSurvey 3.",
+    "keywords": "add edit copy duplicate delete change text question code structure toolbar",
+    "goal": "Add a simple question, edit its wording, and understand how to copy or remove it safely.",
+    "steps": [
+      [
+        "Open the survey Structure tab",
+        "Choose the survey and select Structure on the left."
+      ],
+      [
+        "Choose the question group",
+        "Select the group where this question belongs."
+      ],
+      [
+        "Select Add question",
+        "Use Add question in the structure menu or Add new question to group."
+      ],
+      [
+        "Enter the question code and wording",
+        "For example, use the unique code OPEN1 and the question “In your opinion, what should companies do to become more environmentally responsible?”"
+      ],
+      [
+        "Choose a suitable type",
+        "For that example select Long free text, then Save."
+      ],
+      [
+        "Edit an existing question",
+        "Select the question in Structure, then choose Edit from its question toolbar. Make the change and Save."
+      ],
+      [
+        "Copy or delete only when needed",
+        "Open the question’s Tools menu to locate Copy or Delete. Check the target and confirmation carefully."
+      ]
+    ],
+    "check": [
+      "The question appears within the correct group.",
+      "Its code is unique and the question wording is correct.",
+      "You can preview it without changing a live survey."
+    ],
+    "mistakes": [
+      [
+        "The question is in the wrong group",
+        "Check the Question Group setting when editing the question."
+      ],
+      [
+        "The question code is rejected",
+        "Use a unique code starting with a letter; avoid spaces and punctuation."
+      ],
+      [
+        "I cannot edit the structure",
+        "Some structural changes are restricted after survey activation. Work on a draft copy rather than altering live research data."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Quick_start_guide_-_LimeSurvey_3.0%2B",
+    "sourceLabel": "LimeSurvey 3 quick-start guide",
+    "related": [
+      "add-group",
+      "preview-survey"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-checked; local interface screenshots pending"
+  },
+  {
+    "id": "preview-survey",
+    "category": "Getting Started",
+    "level": "Beginner",
+    "title": "How do I save and preview my survey?",
+    "summary": "See the survey as a participant will see it before collecting data.",
+    "keywords": "preview test save view inspect check survey question group",
+    "goal": "Check the wording and layout of a question, group or full draft survey before activation.",
+    "steps": [
+      [
+        "Save your changes",
+        "In LimeSurvey 3, save after making changes to a question or group."
+      ],
+      [
+        "Open the question or group",
+        "In Structure, select the question or question group you want to inspect."
+      ],
+      [
+        "Find the Preview action",
+        "Use the toolbar option to preview the selected question or group."
+      ],
+      [
+        "Preview the whole survey",
+        "Choose Preview survey from the survey or question toolbar to see the entire draft."
+      ],
+      [
+        "Try different answers",
+        "Answer the questions as a participant would. Check wording, available options and navigation."
+      ],
+      [
+        "Return and correct errors",
+        "Close the preview, edit the design, save and preview again."
+      ]
+    ],
+    "check": [
+      "Your question is visible with the expected response format.",
+      "All necessary answer options appear.",
+      "The full survey shows the expected groups and sequence."
+    ],
+    "mistakes": [
+      [
+        "My preview is not the same as a live response",
+        "Previewing helps check the design but is not a substitute for testing the activated survey and stored responses."
+      ],
+      [
+        "A group-only preview shows hidden questions",
+        "Group previews may bypass group relevance conditions; always test full survey logic separately."
+      ],
+      [
+        "Changes do not appear",
+        "Save the edits, reopen the preview and ensure you are viewing the correct question."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Creating_a_question_group",
+    "sourceLabel": "LimeSurvey question-group preview reference",
+    "related": [
+      "add-question",
+      "create-survey"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-checked; local interface screenshots pending"
+  },
+  {
+    "id": "five-point",
+    "category": "Questionnaire Design",
+    "level": "Beginner",
+    "title": "How do I create a 5-point Likert scale?",
+    "summary": "Build a statement matrix with five labelled agreement choices.",
+    "keywords": "likert five 5 scale strongly agree disagree matrix array subquestions sustainable marketing SMP",
+    "goal": "Ask participants to rate three Sustainable Marketing Perceptions statements from Strongly Disagree to Strongly Agree.",
+    "steps": [
+      [
+        "Open the correct group",
+        "Select the Sustainable Marketing Perceptions question group."
+      ],
+      [
+        "Add a question",
+        "Select Add question and give the parent question a unique code such as SMP."
+      ],
+      [
+        "Choose the flexible Array type",
+        "Choose Array, not Array (5 point choice), if you want all five verbal labels to be shown as column headings."
+      ],
+      [
+        "Enter a short question heading",
+        "For example: “Please indicate how much you agree with each statement.” Save the question."
+      ],
+      [
+        "Enter the three subquestions",
+        "Select Edit subquestions. Use codes SMP1, SMP2 and SMP3, and paste the three statements from the original questionnaire. Save."
+      ],
+      [
+        "Enter five answer options",
+        "Select Edit answer options. Use codes 1–5 and labels Strongly Disagree, Disagree, Neutral, Agree, Strongly Agree. Save."
+      ],
+      [
+        "Preview the question",
+        "Check that three statement rows and five labelled answer columns appear."
+      ]
+    ],
+    "check": [
+      "All three SMP statements are present.",
+      "Each statement has exactly five agreement options.",
+      "One answer can be chosen in each row."
+    ],
+    "mistakes": [
+      [
+        "I see only numbers 1 to 5",
+        "The predefined Array (5 point choice) type uses fixed numeric choices. Choose flexible Array when you need five full verbal labels."
+      ],
+      [
+        "I cannot enter all three statements",
+        "Edit subquestions: these are the rows in an array."
+      ],
+      [
+        "My data labels are confusing",
+        "Use a clear parent question code and recognizable subquestion codes; check exported variable naming before fieldwork."
+      ]
+    ],
+    "source": "https://www.limesurvey.org/manual/Question_type_-_Array",
+    "sourceLabel": "LimeSurvey Array question documentation",
+    "related": [
+      "add-question",
+      "preview-survey"
+    ],
+    "version": "3.28.73+230906",
+    "review": "2026-11-07",
+    "verified": "Documentation-checked; local interface screenshots pending"
+  }
+]

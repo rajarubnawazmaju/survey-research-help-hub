@@ -1,0 +1,63 @@
+{
+  "Getting Started": [
+    "How do I change the title, welcome message or language?",
+    "How do I copy an existing survey?",
+    "How do I import a survey using an .lss file?"
+  ],
+  "Questions, Conditions & Logic": [
+    "How do I show a question only when someone selects Yes?",
+    "How do I skip questions that do not apply to a participant?",
+    "How do I make a question compulsory or optional?",
+    "How do I show a follow-up question based on an earlier answer?",
+    "How do I hide or display an entire question group?",
+    "How do I allow a question only when two conditions are met?",
+    "Why is my condition or relevance equation not working?"
+  ],
+  "Randomization & Experiments": [
+    "How do I randomly show only one pair of questions?",
+    "How do I randomly divide participants into experimental groups?",
+    "How do I randomly change the order of questions?",
+    "How do I keep related questions together during randomization?",
+    "How do I show different scenarios to different participants?",
+    "How do I create a control group and treatment groups?",
+    "How do I check whether randomization is working correctly?"
+  ],
+  "Questionnaire Design": [
+    "How do I create a 7-point Likert scale?",
+    "How do I allow only one answer from several choices?",
+    "How do I allow participants to select several answers?",
+    "How do I add an open-ended text question?",
+    "How do I put several statements in one question matrix?",
+    "How do I add an Other option or a None of the above option?"
+  ],
+  "Participants & Data Collection": [
+    "How do I activate my survey and share its link?",
+    "How do I invite specific participants to complete a survey?",
+    "How do I make a survey anonymous?",
+    "How do I prevent duplicate submissions?",
+    "How do I let respondents save an unfinished survey?",
+    "How do I view completed and incomplete responses?"
+  ],
+  "Data Export & Analysis Preparation": [
+    "How do I export responses to Excel?",
+    "How do I export survey data to SPSS?",
+    "How do I understand exported variable names and codes?",
+    "Why are some responses missing from my exported dataset?",
+    "How do I identify incomplete responses?",
+    "How do I prepare Likert-scale data for statistical analysis?"
+  ],
+  "Problems & Quick Fixes": [
+    "Why is my question not appearing in the survey?",
+    "Why is my survey link not opening?",
+    "Why can I no longer edit certain survey settings?",
+    "Why is my multiple-choice question allowing only one answer?",
+    "Why are my answer options appearing incorrectly?"
+  ],
+  "Research Scenarios & Video Help": [
+    "How do I build a complete Sustainable Marketing questionnaire?",
+    "How do I create a screening question for research participants?",
+    "How do I design a survey for an experiment with three conditions?",
+    "How do I use LimeSurvey to collect data for PLS-SEM research?",
+    "Where can I find reliable LimeSurvey 3 video demonstrations?"
+  ]
+}
