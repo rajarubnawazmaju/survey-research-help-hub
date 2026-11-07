@@ -33,3 +33,7 @@ The five published starter guides are documentation-checked against the classic 
 
 ## Restrictions and privacy
 No AI API, API key, login, tracking, analytics, backend or personal data collection. External official documentation links open in a new tab. Hosting is subject to provider free-tier limits. The site is not affiliated with LimeSurvey.
+
+
+## V2 visual refresh
+The new `styles.css` contains the colorful design system. The root `index.html`, `articles.json`, and `roadmap.json` should remain together. No build command is required. Deploy the **contents** of this folder to the GitHub repository root; commit and Netlify will deploy automatically. Do not publish keys or private student information. Fonts are loaded from Google Fonts; local system fonts serve as a fallback if unavailable.
