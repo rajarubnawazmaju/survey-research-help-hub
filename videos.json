@@ -1,0 +1,130 @@
+[
+  {
+    "id": "v-create",
+    "title": "Create a LimeSurvey questionnaire",
+    "topic": "Getting Started",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2020,
+    "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/41997",
+    "description": "A demonstration of creating a survey. The older interface is relevant to LimeSurvey 3.28.",
+    "match": [
+      "create my first survey",
+      "copy an existing survey",
+      "save and preview",
+      "survey and share its link"
+    ]
+  },
+  {
+    "id": "v-matrix",
+    "title": "Create matrix and scale questions",
+    "topic": "Questionnaire Design",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2020,
+    "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/42002",
+    "description": "See how matrix-style questions are arranged for related research statements.",
+    "match": [
+      "likert",
+      "array",
+      "statements in one question matrix"
+    ]
+  },
+  {
+    "id": "v-multiple",
+    "title": "Create multiple-choice questions",
+    "topic": "Questionnaire Design",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2020,
+    "url": "https://lecture2go.uni-hamburg.de/l2go/-/get/v/43331",
+    "description": "Demonstrates choosing multiple answers instead of just one.",
+    "match": [
+      "select several answers",
+      "multiple-choice"
+    ]
+  },
+  {
+    "id": "v-conditions",
+    "title": "Show questions based on earlier answers",
+    "topic": "Questions, Conditions & Logic",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2020,
+    "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/42003",
+    "description": "A visual explanation of conditions and filters.",
+    "match": [
+      "condition",
+      "skip questions",
+      "only when",
+      "not appearing",
+      "follow-up",
+      "relevance equation",
+      "hide or display"
+    ]
+  },
+  {
+    "id": "v-random-groups",
+    "title": "Randomly assign participants to groups",
+    "topic": "Randomization & Experiments",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2021,
+    "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/50449",
+    "description": "Shows how random assignment can be used to create respondent groups. Test carefully with your study design.",
+    "match": [
+      "randomly divide",
+      "control group",
+      "treatment groups",
+      "experimental groups",
+      "randomization is working"
+    ]
+  },
+  {
+    "id": "v-random-one",
+    "title": "Randomly select one question",
+    "topic": "Randomization & Experiments",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2021,
+    "url": "https://lecture2go.uni-hamburg.de/l2go/-/get/v/57443",
+    "description": "An example of selecting one question at random. Selecting a complete pair requires extra logic and testing.",
+    "match": [
+      "one pair of questions",
+      "randomly show",
+      "randomly change",
+      "related questions together"
+    ]
+  },
+  {
+    "id": "v-spss",
+    "title": "Export survey results to SPSS",
+    "topic": "Data Export & Analysis Preparation",
+    "language": "German",
+    "provider": "Paul Borsdorf · YouTube",
+    "year": 2020,
+    "url": "https://www.youtube.com/watch?v=rXtHUvTzLh0",
+    "description": "Shows the SPSS syntax and data export workflow.",
+    "match": [
+      "SPSS",
+      "export",
+      "variable names",
+      "incomplete responses"
+    ]
+  },
+  {
+    "id": "v-anonymous",
+    "title": "Create an anonymous questionnaire",
+    "topic": "Participants & Data Collection",
+    "language": "German",
+    "provider": "Paul Borsdorf · University of Hamburg",
+    "year": 2021,
+    "url": "https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/58548",
+    "description": "Explains anonymity-related survey settings. Confirm local privacy requirements.",
+    "match": [
+      "anonymous",
+      "participant",
+      "survey link"
+    ]
+  }
+]

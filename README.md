@@ -29,3 +29,12 @@ From the website directory, run `python -m http.server 8000` and visit `http://l
 - The initial source questionnaire is used as an example, but the original PDF is not redistributed by this release.
 - This site is independent and unofficial; it is not endorsed by LimeSurvey.
 - No AI API, browser-key storage, account registration, backend, analytics or database. Search runs locally on the 50-article JSON catalogue. Google Fonts may load over the web with local font fallbacks if unavailable.
+
+
+## Version 5 — Video Help
+- `videos.json` contains 8 curated external LimeSurvey video URLs, including source, language and relevance keywords.
+- Main navigation, homepage, and related articles now link to those videos. Videos open on the original platforms; no embeds or tracking APIs were added.
+- All eight verified links currently point to German-language Paul Borsdorf demonstrations; do not describe them as English videos. The entire text help library remains in English.
+- Upload **all five files** to the repository root: `index.html`, `styles.css`, `articles.json`, `videos.json`, and `README.md`.
+- No AI, server/API, build step, database, or site-hosted video files.
+- Verify before using on a live university study; external videos may be removed or changed by publishers.
