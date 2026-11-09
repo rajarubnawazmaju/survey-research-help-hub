@@ -27,3 +27,7 @@ No AI API, login, database or backend. The builder is experimental; test generat
 This release adds 15 standalone, plain-English randomization help guides in `randomization.json`, navigable at `#randomization` with deep links `#rand-guide/<id>`. It explains native settings, equations, testing, and advanced experimental design concepts with explicit verification warnings. No new AI APIs or backend are used.
 
 The Questionnaire Builder code-generation engine is unchanged; its page adds a link to the help section. The 50 original articles, videos, downloads, and visual theme are retained.
+
+
+### Navigation fix (9 November 2026)
+The header logo is kept together. Navigation is arranged in a single orderly row at mid-size desktop widths, an evenly spaced grid on tablets, and two columns on phones. The content and builder functionality are unchanged.
