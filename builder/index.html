@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#6B8E23"><title>LimeSurvey Questionnaire Builder — V1.1 Lime Theme</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="top"><div class="wrap nav"><div><a class="brand" href="../index.html#home">Survey Research Help Hub <span> / Questionnaire Builder</span></a><small>Created by Raja Rub Nawaz · Unofficial independent resource</small></div><span class="status">V1.1 · LimeSurvey 3.28</span></div></header>
+<main class="wrap">
+<section class="hero"><div><span class="eyebrow">FREE · NO AI · NO API KEY · YOUR DATA STAYS IN YOUR BROWSER</span><h1>Build a questionnaire.<br><em>Download a LimeSurvey file.</em></h1><p>Write questions in simple English, choose answer formats, preview the result, then generate an <strong>.lss</strong> file for importing into LimeSurvey Community Edition 3.28.</p></div><div class="hero-art"><div class="pill one">5-point agreement</div><div class="pill two">7-point agreement</div><div class="pill three">Multiple choice</div><div class="pill four">Long text</div></div></section>
+<div class="notice"><strong>Testing version:</strong> The XML uses patterns from two successful LimeSurvey 3.28 imports. Browser-generated test files have imported successfully. Code-format checks are now stricter; response-data verification is still required. Do not use it for live data collection until tested.</div>
+<section class="layout">
+<div class="editor">
+ <div class="sectionhead"><div><span class="eyebrow">STEP 1</span><h2>Survey details</h2></div><button class="btn ghost" id="reset">Load example</button></div>
+ <div class="fields two"><label>Survey title<input id="surveyTitle" maxlength="180" placeholder="My research questionnaire"></label><label>Survey description<input id="surveyDesc" maxlength="400" placeholder="Short purpose of the survey"></label></div>
+ <label>Welcome message<textarea id="welcome" rows="2" placeholder="Thank you for participating..."></textarea></label>
+ <div class="sectionhead border-top"><div><span class="eyebrow">STEP 2</span><h2>Question groups</h2><p>Use groups to organize related questions.</p></div><button id="addGroup" class="btn secondary">+ Add group</button></div>
+ <div id="groups"></div>
+ <div class="sectionhead border-top"><div><span class="eyebrow">STEP 3</span><h2>Edit a question</h2></div></div>
+ <div id="questionEditor" class="question-editor"><p>Select a question above, or add one to a group.</p></div>
+</div>
+<aside class="side">
+ <div class="sticky"><div class="panel"><div class="sectionhead"><div><span class="eyebrow">STEP 4</span><h2>Check your survey</h2></div></div><div id="stats" class="stats"></div><div id="validation" class="validation"></div><button id="generate" class="btn primary full">Download .lss file <span aria-hidden="true">↓</span></button><small>Your questionnaire is processed locally in this browser. Nothing is sent to a database or AI service.</small></div><div class="panel"><div class="sectionhead"><h2>Participant preview</h2><button id="refreshPreview" class="btn ghost tiny">Refresh</button></div><div id="preview" class="preview"></div></div><div class="panel tips"><h3>Need randomization after importing?</h3><p>Build your questionnaire here first. Then follow simple instructions to shuffle questions, change group order or set up research conditions inside LimeSurvey.</p><a class="btn primary full" href="../#randomization">Open Randomization Help →</a></div><div class="panel tips"><h3>How to test your download</h3><ol><li>Import the <code>.lss</code> into LimeSurvey 3.28.</li><li>Check groups, questions and answer choices.</li><li>Preview every question on desktop and mobile.</li><li>Export the imported survey again and compare it.</li><li>Before real research, test submitted responses and data coding.</li></ol></div></div>
+</aside>
+</section>
+<footer><p><strong>Survey Research Help Hub</strong> · Created by Raja Rub Nawaz</p><p>Independent, unofficial educational tool. Not affiliated with or endorsed by LimeSurvey. Generated files are experimental until tested in your installation.</p></footer>
+</main>
+<script src="schema.js"></script><script src="app.js"></script>
+</body></html>

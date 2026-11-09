@@ -1,28 +1,29 @@
-# Survey Research Help Hub — Final consolidated release
+# Survey Research Help Hub — Approved Lime Theme + Questionnaire Builder
 
-**Created by Raja Rub Nawaz**. Independent and unofficial help for LimeSurvey Community Edition **3.28.73+230906**.
+This is a complete GitHub / Netlify-ready static site. Extract the **contents** of this ZIP into the root of your existing repository.
 
-## Included
-- 50 searchable plain-English help articles across 8 categories
-- 16 curated external videos (8 English/English-translated and 8 German) with explicit audio/playback caveats
-- Sophisticated plum (#572E54), warm cream (#E2D2C8), mauve (#CEB2BD) design
-- 12+ simplified diagrams for common tasks (NOT screenshots of the actual LimeSurvey admin UI)
-- Three downloadable example/checklist CSV files and a readme for downloads
-- Search, category filters, level filters, article permalinks, copy-link and printing
-- No AI API, server, database, login, or analytics script
+## Approved palette
+- Soft lime / card backgrounds: `#D7E7A6`
+- Forest green / buttons: `#355E2B`
+- Soft ivory / base background: `#F5F2E8`
+- Olive accent: `#6B8E23`
+- Strong red remove control on the builder (light ivory background, red border/text).
 
-## Deploy
-Extract this zip. Upload **the contents of this folder** into the ROOT of the current GitHub repository, overwriting the matching files, keeping the `downloads/` folder. Commit to `main` or the branch already connected to Netlify. The existing Netlify site deploys on that commit. No build command; publish directory `.`, if the repository root contains index.html.
+## Contents
+- 50 help articles (`articles.json`)
+- 16 video resources (`videos.json`)
+- Downloads (`downloads/`)
+- Main static website (`index.html`, `styles.css`)
+- Standalone builder (`builder/index.html`, `builder/styles.css`, `builder/app.js`, `builder/schema.js`)
 
-Required: index.html, styles.css, articles.json, videos.json, README.md and downloads/. No need to upload older roadmap.json.
+## Deployment
+All files go to the GitHub repository root; retain the `builder/` and `downloads/` directories. Netlify needs no build command, and the publish directory is `.`.
 
-## Important verification limits
-The source documentation was consulted, and static/content checks were completed. The site has NOT been click-tested against the University's actual 3.28.73 installation. The visual guides are **illustrations, not real screenshots**. External videos have **not all been played/listened to** and some are older or demonstrate newer interfaces. The downloadable CSV is a questionnaire build template, not a LimeSurvey import file. A working .lss is not supplied because no locally import-tested compatible export is available.
+## Safeguards
+No AI API, login, database or backend. The builder is experimental; test generated `.lss` files in LimeSurvey Community Edition 3.28 before using them with participants. The site content and builder logic are preserved; this update primarily unifies the design and connects the builder.
 
-Advanced assignment/randomization and privacy guidance should be individually verified in the target installation, with simulated test cases and exported data, before live research.
 
-## Local preview
-From this folder run `python -m http.server 8000` and visit http://localhost:8000. Opening index.html directly from file:// may prevent JSON from loading.
+## Randomization Help Center expansion
+This release adds 15 standalone, plain-English randomization help guides in `randomization.json`, navigable at `#randomization` with deep links `#rand-guide/<id>`. It explains native settings, equations, testing, and advanced experimental design concepts with explicit verification warnings. No new AI APIs or backend are used.
 
-## Site identity
-Independent, unofficial educational resource; not endorsed by LimeSurvey. No confidential responses are collected. Maintain institutional research ethics/privacy procedures.
+The Questionnaire Builder code-generation engine is unchanged; its page adds a link to the help section. The 50 original articles, videos, downloads, and visual theme are retained.

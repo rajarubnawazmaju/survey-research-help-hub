@@ -1,0 +1,416 @@
+[
+  {
+    "id": "order-questions",
+    "title": "Show the same questions in a different order",
+    "level": "Beginner",
+    "kind": "Ordering",
+    "goal": "Every participant sees all the questions; only the order changes.",
+    "steps": [
+      "Keep the questions that must always come first (such as consent and eligibility) outside the shuffled set.",
+      "Open your survey, select Structure, and edit the first question you want to shuffle.",
+      "In its advanced question settings, find Randomization group name. Enter a short shared name such as SHUFFLE1.",
+      "Enter exactly SHUFFLE1 for every other question that should switch places. Leave this setting empty on questions that must remain fixed.",
+      "Save each question, then use Preview survey to test a fresh session."
+    ],
+    "check": [
+      "All intended questions still appear.",
+      "Their order changes across independent starts; a single participant’s order remains stable.",
+      "Question codes and recorded answers remain aligned."
+    ],
+    "mistakes": [
+      "A randomization group changes order; it does not hide questions.",
+      "Preview survey, not just Preview question group, for reliable checking."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/QS:Random_group/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "order-groups",
+    "title": "Show complete question groups in a random order",
+    "level": "Beginner",
+    "kind": "Ordering",
+    "goal": "The three research sections appear in different orders, but each section stays together.",
+    "steps": [
+      "Create a separate question group for each complete block (for example Brand Trust, Satisfaction, Purchase Intention).",
+      "Open Structure, edit the first question group, and find Randomization group.",
+      "Enter a common label such as BLOCKORDER. Save.",
+      "Enter the same label for the other groups that should change order.",
+      "Keep consent, screening and final debrief groups outside this randomization set.",
+      "Preview the full survey several times using fresh starts."
+    ],
+    "check": [
+      "The chosen groups switch order between fresh sessions.",
+      "Questions stay within their assigned group.",
+      "All blocks still appear."
+    ],
+    "mistakes": [
+      "Shuffling groups is not assigning participants to a single experimental condition.",
+      "Do not shuffle a group that is logically dependent on responses to a later group."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Creating_a_question_group",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "order-answers",
+    "title": "Shuffle answer choices in a single-choice list",
+    "level": "Intermediate",
+    "kind": "Ordering",
+    "goal": "A list of product brands appears in different orders to reduce position effects.",
+    "steps": [
+      "Open a single-choice List (radio) question with several independent answer options.",
+      "Open advanced question settings and find Random answer order.",
+      "Choose Yes and save the question.",
+      "Preview the whole survey in separate fresh sessions and observe whether choices move.",
+      "If your question includes Other, None of the above or Don’t know, verify its behavior separately before launching."
+    ],
+    "check": [
+      "Response labels move across fresh sessions.",
+      "Answer codes remain attached to their intended labels.",
+      "Special options behave as intended."
+    ],
+    "mistakes": [
+      "Do not shuffle ordered categories such as Strongly Disagree to Strongly Agree.",
+      "For matrix questions with subquestions, this setting may shuffle statements rather than response columns."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/QS:Random_order/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "order-subquestions",
+    "title": "Shuffle the statements in a Likert matrix",
+    "level": "Intermediate",
+    "kind": "Ordering",
+    "goal": "Participants rate the same statements but see them in a different row order.",
+    "steps": [
+      "Open the relevant Array question.",
+      "Check that each statement has its own stable subquestion code.",
+      "Under advanced settings select Random answer order = Yes (in this case it applies to subquestions).",
+      "Save and preview the complete survey from several fresh starts.",
+      "Export a test dataset later and verify that data fields still match the intended statement codes."
+    ],
+    "check": [
+      "Matrix rows change order, but column labels remain in logical order.",
+      "Each statement retains its underlying code."
+    ],
+    "mistakes": [
+      "Do not assume Random answer order shuffles the columns of an array.",
+      "Keep multi-part questions together if their order conveys meaning."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Question_type_-_Array/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "understand-three",
+    "title": "Understand random order, random selection and random assignment",
+    "level": "Beginner",
+    "kind": "Foundations",
+    "goal": "Choose the correct method before you change any setting.",
+    "steps": [
+      "Random ORDER means everyone sees Q1, Q2 and Q3, but in different orders.",
+      "Random SELECTION means some questions are hidden, so a person might see only Q2.",
+      "Random ASSIGNMENT means a person receives one condition, such as advertisement A or advertisement B.",
+      "Decide which of these outcomes your research design requires.",
+      "Write the expected outcome on paper before editing LimeSurvey."
+    ],
+    "check": [
+      "You can describe your desired outcome in one sentence.",
+      "You do not confuse changing order with hiding content."
+    ],
+    "mistakes": [
+      "A randomization group name generally changes order only.",
+      "Random assignment does not guarantee equal group sizes."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "equation-basics",
+    "title": "What is an Equation question and why would I use it?",
+    "level": "Intermediate",
+    "kind": "Equations",
+    "goal": "Store a calculated value that later questions can use.",
+    "steps": [
+      "An Equation question is a calculation field, not a question requiring an answer from the participant.",
+      "Create an Equation question with a short code such as COND.",
+      "For a simple demonstration enter {2+3} as its equation text and check that it evaluates to 5.",
+      "Only after verifying the calculation should you use its code in another question’s relevance setting.",
+      "Advanced condition assignment requires a value to be calculated once and retained; see the experimental-condition guides."
+    ],
+    "check": [
+      "An Equation question produces the expected calculation.",
+      "You understand that the value can be referenced by its question code."
+    ],
+    "mistakes": [
+      "Curly braces are used in question/equation text; relevance fields use an expression without braces.",
+      "Do not repeatedly recalculate a random value in several separate conditions."
+    ],
+    "formula": "{2+3}",
+    "words": [
+      "{ and } tell LimeSurvey to evaluate an expression in question text.",
+      "2+3 is the calculation.",
+      "The result is 5."
+    ],
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "equation-symbols",
+    "title": "Read the symbols in a relevance equation",
+    "level": "Beginner",
+    "kind": "Equations",
+    "goal": "Understand the small pieces of a display rule.",
+    "steps": [
+      "Find a question code, such as AGEGROUP. This identifies the earlier question.",
+      "Find ==, which means is equal to.",
+      "Find the answer code in quotes, such as \"1\".",
+      "Enter AGEGROUP == \"1\" in a later question’s relevance equation field if that exact question and answer code exist.",
+      "Test once with the matching answer and once with a different answer."
+    ],
+    "check": [
+      "The follow-up appears only for the matching answer.",
+      "All codes match the actual survey exactly, including uppercase/lowercase."
+    ],
+    "mistakes": [
+      "The answer code is not necessarily the number printed beside an answer.",
+      "Do not surround a relevance equation with curly braces."
+    ],
+    "formula": "AGEGROUP == \"1\"",
+    "words": [
+      "AGEGROUP is the earlier question code.",
+      "== means “is equal to”.",
+      "\"1\" is the stored answer code we want."
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "equation-and-or",
+    "title": "Combine two conditions using AND or OR",
+    "level": "Intermediate",
+    "kind": "Equations",
+    "goal": "Display a question based on more than one earlier answer.",
+    "steps": [
+      "Confirm that both earlier questions have stable codes, for example CONSENT and AGEGROUP.",
+      "Choose AND when both conditions must be true; choose OR when either is enough.",
+      "Enter CONSENT == \"Y\" and AGEGROUP == \"1\" in the later question’s relevance field, assuming those are your real answer codes.",
+      "Test all combinations, not just one successful path."
+    ],
+    "check": [
+      "With AND, only the combination matching both values shows the question.",
+      "With OR, either matching condition shows the question."
+    ],
+    "mistakes": [
+      "A capital Y is not the same as a lower-case y in all contexts.",
+      "Do not use the text of the answer where the code is required."
+    ],
+    "formula": "CONSENT == \"Y\" and AGEGROUP == \"1\"",
+    "words": [
+      "CONSENT == \"Y\" checks consent.",
+      "and requires both checks to be true.",
+      "AGEGROUP == \"1\" checks the selected age category."
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "random-number",
+    "title": "What does a random-number equation mean?",
+    "level": "Intermediate",
+    "kind": "Equations",
+    "goal": "Understand how a condition number can be picked.",
+    "steps": [
+      "Think of three experimental conditions labelled 1, 2 and 3.",
+      "The function rand(1,3) is intended to choose one whole number between 1 and 3.",
+      "A random value should be calculated once in an early hidden Equation question, then referenced later by its code.",
+      "Do not paste rand(1,3) separately into three relevance fields; doing that can give inconsistent results.",
+      "Test independent sessions, retained assignments and the response export before collecting real data."
+    ],
+    "check": [
+      "You can explain the difference between selecting once and calculating repeatedly.",
+      "The stored assignment is available for later checks in a tested survey."
+    ],
+    "mistakes": [
+      "Random does not mean equal numbers of participants in each condition.",
+      "The exact Equation implementation and hiding behavior still require a LimeSurvey 3.28 test."
+    ],
+    "formula": "rand(1,3)",
+    "words": [
+      "rand means choose a random whole number.",
+      "1 is the lowest allowed value.",
+      "3 is the highest allowed value."
+    ],
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation/en",
+    "note": "Concept verified in the ExpressionScript reference. The full assignment recipe is not yet locally tested for this installation."
+  },
+  {
+    "id": "one-of-five",
+    "title": "Show only one random question from five",
+    "level": "Advanced",
+    "kind": "Selective display",
+    "goal": "Each participant sees just one of five questions rather than all five.",
+    "steps": [
+      "Give each candidate question a distinct code and decide whether they share a page or live in different groups.",
+      "Create a hidden assignment Equation before the questions. The official manual contains a “Randomly Ask One Question Per Group” sample survey.",
+      "Use the stored assignment code as the reference for five relevance rules, one matching each possible choice.",
+      "Test every selected question through multiple fresh starts; check that exactly one is displayed.",
+      "Inspect exported test data to verify which question was displayed and whether the assigned value was stored."
+    ],
+    "check": [
+      "Exactly one of five candidate questions appears for each fresh session.",
+      "All five questions are reachable across test sessions."
+    ],
+    "mistakes": [
+      "This is different from shuffling five questions.",
+      "Do not copy a sample relevance expression without adapting its codes and survey grouping."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Advanced documented approach; not locally verified in the Kassel installation. Use the official sample survey and test configuration before deployment."
+  },
+  {
+    "id": "subset",
+    "title": "Show a random subset, such as three questions out of ten",
+    "level": "Advanced",
+    "kind": "Selective display",
+    "goal": "Each participant sees a fixed-size subset chosen from a larger bank.",
+    "steps": [
+      "Put the question bank in a deliberate group, assigning stable codes Q1–Q10.",
+      "Consult the official Expression Manager sample “Randomly Ask A Specific Number Of Questions In A Group”.",
+      "That method combines random order with relevanceStatus checks; it is not a simple checkbox.",
+      "Follow the example in a separate test survey using the same display mode it requires.",
+      "Run many fresh previews and verify that exactly three questions appear before using it with participants."
+    ],
+    "check": [
+      "Exactly the requested number of items appears.",
+      "Question selection changes across new sessions.",
+      "The stored responses correspond to the visible questions."
+    ],
+    "mistakes": [
+      "The documented example has survey-display-mode restrictions.",
+      "Changing an example from five-of-ten to three-of-ten requires careful changes to every relevance rule."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Method referenced from official example; step-by-step equations intentionally withheld until locally tested."
+  },
+  {
+    "id": "pair",
+    "title": "Show one complete random pair of questions",
+    "level": "Advanced",
+    "kind": "Selective display",
+    "goal": "Each participant sees exactly one predetermined pair, with both questions from that pair.",
+    "steps": [
+      "List your pairs clearly: Pair A has A1 and A2, Pair B has B1 and B2, and so on.",
+      "Do not use a common question-randomization name expecting it to choose a pair: that changes order only.",
+      "Plan one stored assignment value per participant, calculated before the pairs are shown.",
+      "Attach the same condition to both questions of a pair (or to the entire pair group), and a different condition to each other pair.",
+      "Test every branch and check that exactly one complete pair is shown, including when participants go back and forward."
+    ],
+    "check": [
+      "One pair only appears per participant.",
+      "Both members of that pair always appear together.",
+      "The assignment remains stable during navigation."
+    ],
+    "mistakes": [
+      "Do not evaluate rand() independently on both questions.",
+      "Avoid using group-level settings unless you have tested their interaction with the survey display mode."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Design pattern explained; not a verified copy-paste implementation for LimeSurvey 3.28."
+  },
+  {
+    "id": "conditions",
+    "title": "Assign participants to one of three experimental scenarios",
+    "level": "Advanced",
+    "kind": "Experiments",
+    "goal": "Each participant sees one of three scenarios and related questions.",
+    "steps": [
+      "Define the three conditions A, B and C before building the survey.",
+      "Create an early assignment field and store a single randomly chosen condition code.",
+      "Place each condition’s scenario and follow-up questions in its own clearly named group.",
+      "Apply a matching relevance rule to each condition group, referencing the stored code.",
+      "Test all three branches, verify stability when navigating backwards, and confirm the condition appears in the exported data."
+    ],
+    "check": [
+      "Each participant sees exactly one scenario.",
+      "They never see follow-up questions belonging to a different scenario.",
+      "The assigned condition can be identified in exported test records."
+    ],
+    "mistakes": [
+      "Equal allocation is not guaranteed with simple random assignment.",
+      "Do not change condition definitions midway through actual data collection without methodological review."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Research design guidance; the exact LimeSurvey 3.28 assignment formula remains untested."
+  },
+  {
+    "id": "debug",
+    "title": "Why are all my questions appearing despite randomization?",
+    "level": "Intermediate",
+    "kind": "Troubleshooting",
+    "goal": "Diagnose the most common confusion between order and visibility.",
+    "steps": [
+      "Check whether you entered only a Randomization group name; that setting changes order but does not hide questions.",
+      "If selective display is intended, inspect each question’s relevance equation.",
+      "Confirm the referenced question codes exist and the answer/assignment codes are exact.",
+      "Inspect the survey logic/check-logic report, then test from the beginning of a new session.",
+      "Confirm that the assignment is evaluated before the affected questions."
+    ],
+    "check": [
+      "Only intended content is visible.",
+      "The condition does not change unexpectedly on a previous/next page transition."
+    ],
+    "mistakes": [
+      "Changing the order and hiding questions are separate operations.",
+      "A relevance equation that is always true will not filter the display."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/ExpressionScript_-_Presentation/en",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  },
+  {
+    "id": "test-random",
+    "title": "How to test randomization before launching research",
+    "level": "Beginner",
+    "kind": "Testing",
+    "goal": "Check both participant experience and recorded results.",
+    "steps": [
+      "Make a copy or use an inactive test survey; never experiment on a live study.",
+      "Write down expected behavior for every branch, pair or condition.",
+      "Start multiple independent test sessions rather than repeatedly refreshing one response.",
+      "Check visual display, back/forward navigation, any special answer options and mobile layouts.",
+      "Where possible, activate a separate test copy and export synthetic responses to check the saved condition codes.",
+      "Keep a short testing log and correct every discrepancy before collecting real data."
+    ],
+    "check": [
+      "Every intended branch has been observed.",
+      "No participant sees contradictory scenarios or incomplete pairs.",
+      "Exported variables identify assigned conditions when relevant."
+    ],
+    "mistakes": [
+      "A successful .lss import does not prove the logic works.",
+      "A few trials cannot establish uniform assignment or allocation balance."
+    ],
+    "formula": null,
+    "words": null,
+    "source": "https://www.limesurvey.org/manual/Expression_Manager_sample_surveys",
+    "note": "Guidance based on LimeSurvey documentation; exact placement and behavior have not been verified on the Kassel 3.28 installation."
+  }
+]
